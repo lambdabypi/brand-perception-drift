@@ -1,0 +1,1527 @@
+{
+  "Linear": {
+    "openai/gpt-oss-120b": {
+      "parametric": {
+        "answer": "**Linear \u2013 Overview**\n\n| Item | Details |\n|------|---------|\n| **What they do** | Linear builds a fast, lightweight, and highly\u2011focused work\u2011management platform for software teams. It combines issue tracking, project planning (roadmaps & sprints), product\u2011spec documentation, and workflow automation into a single web\u2011app (plus native macOS, Windows, iOS, and Android clients). The core goal is to reduce friction and \u201cclick\u2011fatigue\u201d so engineers, product managers, and designers can spend more time building and less time navigating a UI. |\n| **Founded** | 2019 (by **Karri Saarinen**, **Jori Lallo**, and **Tuomas Artman**) in Helsinki, Finland. |\n| **Headquarters** | San\u202fFrancisco, California, USA (the company is incorporated in the United States, with a small engineering hub in Helsinki). |\n| **Main products / features** | 1. **Issue & bug tracking** \u2013 lightweight tickets with customizable states, labels, priorities, and markdown\u2011rich descriptions.<br>2. **Roadmaps** \u2013 hierarchical, time\u2011boxed planning view that lets you map epics \u2192 milestones \u2192 releases.<br>3. **Sprints & Kanban boards** \u2013 fast drag\u2011and\u2011drop board with cycle\u2011time analytics, burndown charts, and velocity tracking.<br>4. **Automation & integrations** \u2013 built\u2011in actions (e.g., auto\u2011assign, status transitions) and a robust **API + webhooks**; native integrations with GitHub, GitLab, Bitbucket, Slack, Figma, Notion, Zapier, and many CI/CD tools.<br>5. **Keyboard\u2011first UI** \u2013 almost every action can be performed via shortcuts; the UI is built with React + Typescript and optimized for speed (most pages load <\u202f200\u202fms).<br>6. **Collaboration** \u2013 comments with @mentions, threaded discussions, and real\u2011time presence indicators.<br>7. **Analytics & reporting** \u2013 cycle\u2011time, lead\u2011time, cumulative flow diagrams, and custom dashboards.<br>8. **Self\u2011hosted (Beta)** \u2013 an on\u2011premises Docker image for enterprises that need data residency. |\n| **Pricing model** | Linear follows a **tiered SaaS subscription** model with three primary plans (as of\u202f2024). All plans are billed **per user per month** (annual billing gives a ~15\u202f% discount). Prices are listed in USD; local currency pricing is shown at checkout. <br><br>| Plan | Who it\u2019s for | Key limits | Price (per user, annual) |\n|------|--------------|------------|-------------------|\n| **Free** | Individuals & very small teams (\u2264\u202f3 members) | Unlimited issues, 1\u202fproject, basic roadmaps, Slack/GitHub integration, 30\u2011day history | $0 |\n| **Standard** | Growing product/engineering teams (most startups) | Unlimited projects, advanced roadmaps, sprint board, automation, unlimited integrations, 90\u2011day history, priority support | **$8\u202f\u2013\u202f$10** (varies by region) |\n| **Enterprise** | Large organizations that need SSO, advanced security, and compliance | All Standard features + SSO (SAML, OIDC), SCIM provisioning, audit logs, custom SLA, dedicated account manager, unlimited history, on\u2011prem/ private\u2011cloud option | **$15\u202f\u2013\u202f$20** (per user) \u2013 custom quote for very large seats |\n\n*Notes on pricing*  \n\n* **Free trial** \u2013 Enterprise customers can start a 14\u2011day trial of the Enterprise plan without providing a credit card.  \n* **Add\u2011ons** \u2013 Additional seats, extra storage for attachments, or premium support packages can be purchased \u00e0 la carte.  \n* **Discounts** \u2013 Non\u2011profits and educational institutions can request a 50\u202f% discount on the Standard plan.  \n\n---\n\n### Quick TL;DR\n\n- **Linear** is a fast, keyboard\u2011centric issue\u2011tracking & project\u2011management tool for software teams.  \n- **Founded** in 2019 (Helsinki) and now headquartered in **San\u202fFrancisco**.  \n- **Core product**: a unified web/app platform with issues, roadmaps, sprints, automation, analytics, and deep integrations.  \n- **Pricing**: Free tier for \u2264\u202f3 users; **Standard** at ~\u202f$8\u2011$10\u202f/\u202fuser/mo (annual); **Enterprise** at ~\u202f$15\u2011$20\u202f/\u202fuser/mo with SSO, audit logs, and optional self\u2011hosted deployment.  \n\nFeel free to ask if you need deeper details on any specific feature, integration, or how Linear compares to competitors like Jira, Asana, or Clubhouse (now Shortcut).",
+        "eval": {
+          "fields": [
+            {
+              "field": "founded_year",
+              "status": "correct",
+              "detail": ""
+            },
+            {
+              "field": "hq",
+              "status": "correct",
+              "detail": ""
+            },
+            {
+              "field": "category",
+              "status": "correct",
+              "detail": ""
+            },
+            {
+              "field": "pricing_model",
+              "status": "correct",
+              "detail": ""
+            },
+            {
+              "field": "key_products",
+              "status": "correct",
+              "detail": "3/4 matched"
+            }
+          ],
+          "score": 100.0
+        }
+      },
+      "ambient_web": {
+        "answer": "**What Linear does**  \nLinear builds an issue\u2011tracking and project\u2011management tool for product teams. The platform is designed to combine an elegant user interface with very high performance, helping teams coordinate, stay clear on priorities, and move quickly on product work.\n\n**When it was founded**  \nLinear was founded in **2019**.\n\n**Headquarters**  \nThe provided information does not specify a physical headquarters location. It does note that Linear was set up as a fully remote company.\n\n**Pricing**  \nThe context does not contain any details about how Linear prices its product.\n\n**Main products / features**  \nThe only product mentioned in the context is the core **issue\u2011tracking and project\u2011management tool** that emphasizes UI elegance, speed, and clarity for product development. No further breakdown of specific features or additional product lines is provided.",
+        "eval": {
+          "fields": [
+            {
+              "field": "founded_year",
+              "status": "correct",
+              "detail": ""
+            },
+            {
+              "field": "hq",
+              "status": "incorrect",
+              "detail": "model said 'remote', actual 'san francisco'"
+            },
+            {
+              "field": "category",
+              "status": "correct",
+              "detail": ""
+            },
+            {
+              "field": "pricing_model",
+              "status": "partial",
+              "detail": ""
+            },
+            {
+              "field": "key_products",
+              "status": "correct",
+              "detail": "2/4 matched"
+            }
+          ],
+          "score": 75.0
+        }
+      },
+      "corrected": {
+        "answer": "Linear is a project\u2011management and issue\u2011tracking platform designed for software teams.  \n\n- **Founded:** 2019 (by Karri\u202fSaarinen, Jori\u202fLallo, and Tuomas\u202fArtman)  \n- **Headquarters:** San\u202fFrancisco, California  \n- **Pricing model:** Per\u2011seat subscription with four tiers \u2013 a free tier, a Basic tier at roughly **$10\u201112 per user per month**, a Business tier at roughly **$16\u201118 per user per month**, and an Enterprise tier with custom pricing.  \n- **Main products / features:**  \n  * Issue tracking  \n  * Cycles (sprint/iteration management)  \n  * Roadmaps  \n  * Linear Insights (analytics)  \n\nThese are the details provided in the available context.",
+        "eval": {
+          "fields": [
+            {
+              "field": "founded_year",
+              "status": "correct",
+              "detail": ""
+            },
+            {
+              "field": "hq",
+              "status": "correct",
+              "detail": ""
+            },
+            {
+              "field": "category",
+              "status": "correct",
+              "detail": ""
+            },
+            {
+              "field": "pricing_model",
+              "status": "correct",
+              "detail": ""
+            },
+            {
+              "field": "key_products",
+              "status": "correct",
+              "detail": "4/4 matched"
+            }
+          ],
+          "score": 100.0
+        }
+      }
+    },
+    "openai/gpt-oss-20b": {
+      "parametric": {
+        "answer": "**Linear** is a modern, developer\u2011centric project\u2011management and issue\u2011tracking platform that aims to make software teams faster, more focused, and less \u201cpaper\u2011heavy.\u201d Below is a concise snapshot of what Linear does, its history, headquarters, pricing model, and the core products/features that set it apart.\n\n---\n\n## 1. What Linear Does\n\n- **Issue & Project Tracking**: A lightweight, highly\u2011customizable issue tracker that integrates tightly with GitHub, GitLab, and Bitbucket.\n- **Speed & Simplicity**: Emphasizes speed (fast UI, keyboard shortcuts, minimal clicks) and a clean, distraction\u2011free interface.\n- **Developer\u2011First**: Built with developers in mind\u2014automatic issue creation from PRs, code\u2011centric workflows, and a focus on reducing context switching.\n- **Collaboration & Visibility**: Provides real\u2011time updates, comments, and status dashboards so teams stay aligned without endless meetings.\n\n---\n\n## 2. Founding & History\n\n| Milestone | Year | Detail |\n|-----------|------|--------|\n| Company founded | **2019** | Co\u2011founders: **Alexandra \u201cAlex\u201d K.** (CEO) and **David \u201cDave\u201d R.** (CTO). |\n| Seed round | 2020 | Raised ~$2.5\u202fM from early\u2011stage investors (e.g., Initialized Capital, Homebrew). |\n| Series A | 2021 | Raised ~$12\u202fM led by **Sequoia Capital** and **Andreessen Horowitz**. |\n| Series B | 2022 | Raised ~$30\u202fM, bringing total funding to ~$45\u202fM. |\n| Product launch | 2020 | First public beta; full product released in 2021. |\n\nLinear has grown from a small startup to a rapidly scaling SaaS company, attracting a mix of early\u2011stage and enterprise customers.\n\n---\n\n## 3. Headquarters\n\n- **Location**: **San Francisco, California, USA**  \n- **Office**: 3rd\u2011floor, 500\u2011seat co\u2011working space in the Mission District (shared with other tech startups).  \n- **Remote\u2011First**: While headquartered in SF, Linear operates as a fully remote company with distributed teams across North America, Europe, and Asia.\n\n---\n\n## 4. Pricing Model\n\nLinear offers a **tiered subscription** structure, primarily aimed at software teams of all sizes. Pricing is billed **annually** (discounted) or **monthly** (full price). All plans include a 14\u2011day free trial.\n\n| Plan | Monthly Price (USD) | Annual Price (USD) | Key Features |\n|------|---------------------|--------------------|--------------|\n| **Starter** | $5 / user | $48 / user | Core issue tracking, GitHub/GitLab integration, basic dashboards, email support. |\n| **Team** | $10 / user | $96 / user | All Starter features + advanced workflows, custom fields, priority support, API access. |\n| **Enterprise** | Custom | Custom | Unlimited users, SAML SSO, audit logs, dedicated success manager, on\u2011prem or private\u2011cloud deployment. |\n\n- **Add\u2011Ons**: Extra storage, advanced analytics, and premium integrations can be purchased separately.\n- **Free Tier**: Linear offers a limited free tier (up to 5 users, 1,000 issues/month) for hobbyists or very small teams.\n\n---\n\n## 5. Main Products & Features\n\n### 5.1 Core Issue Tracker\n\n- **Keyboard\u2011First Navigation**: Navigate, create, and close issues with just a few keystrokes.\n- **Smart Search & Filters**: Instant filtering by assignee, status, labels, or custom fields.\n- **Bulk Actions**: Reassign, close, or label thousands of issues in one click.\n- **Git Integration**: Auto\u2011create issues from PR comments, link commits to issues, and auto\u2011close on merge.\n\n### 5.2 Project & Roadmap Management\n\n- **Kanban & Gantt Views**: Drag\u2011and\u2011drop boards, timeline view for release planning.\n- **Milestones & Releases**: Define version targets, track progress, and generate release notes automatically.\n- **Dependency Tracking**: Visualize issue dependencies and blockers.\n\n### 5.3 Collaboration & Communication\n\n- **Threaded Comments**: Inline discussions tied to code or issue context.\n- **Mentions & Notifications**: Real\u2011time alerts via Slack, email, or in\u2011app.\n- **Activity Feed**: One\u2011stop view of all recent changes across projects.\n\n### 5.4 Automation & Customization\n\n- **Custom Workflows**: Define status transitions, required fields, and validation rules.\n- **Automation Rules**: Trigger actions (e.g., assign, label, comment) based on events (e.g., issue created, PR merged).\n- **API & Webhooks**: Full REST API and event webhooks for integration with CI/CD pipelines, monitoring tools, or custom dashboards.\n\n### 5.5 Analytics & Reporting\n\n- **Velocity & Cycle Time**: Built\u2011in charts to measure team performance.\n- **Custom Dashboards**: Drag\u2011and\u2011drop widgets for metrics like open issues, average resolution time, or sprint burndown.\n- **Export**: CSV, PDF, or JSON exports for external analysis.\n\n### 5.6 Security & Compliance\n\n- **Enterprise\u2011Grade Security**: TLS, data encryption at rest, role\u2011based access control.\n- **Compliance**: SOC 2 Type II, GDPR\u2011ready, and optional ISO 27001 audit reports.\n- **S",
+        "eval": {
+          "fields": [
+            {
+              "field": "founded_year",
+              "status": "correct",
+              "detail": ""
+            },
+            {
+              "field": "hq",
+              "status": "correct",
+              "detail": ""
+            },
+            {
+              "field": "category",
+              "status": "correct",
+              "detail": ""
+            },
+            {
+              "field": "pricing_model",
+              "status": "correct",
+              "detail": ""
+            },
+            {
+              "field": "key_products",
+              "status": "correct",
+              "detail": "2/4 matched"
+            }
+          ],
+          "score": 100.0
+        }
+      },
+      "ambient_web": {
+        "answer": "I\u2019m sorry, but the information you\u2019re asking for isn\u2019t included in the context I have.",
+        "eval": {
+          "fields": [
+            {
+              "field": "founded_year",
+              "status": "missing",
+              "detail": ""
+            },
+            {
+              "field": "hq",
+              "status": "missing",
+              "detail": ""
+            },
+            {
+              "field": "category",
+              "status": "partial",
+              "detail": ""
+            },
+            {
+              "field": "pricing_model",
+              "status": "missing",
+              "detail": ""
+            },
+            {
+              "field": "key_products",
+              "status": "missing",
+              "detail": ""
+            }
+          ],
+          "score": 30.0
+        }
+      },
+      "corrected": {
+        "answer": "Linear is a project\u2011management and issue\u2011tracking platform designed for software teams.  \n- **Founded:** 2019  \n- **Headquarters:** San\u202fFrancisco, California  \n- **Pricing model:** Per\u2011seat subscription with tiers \u2013 Free, Basic (~$10\u201112 per user per month), Business (~$16\u201118 per user per month), and Enterprise (custom pricing).  \n- **Main products/features:** Issue tracking, cycles, roadmaps, and Linear Insights.",
+        "eval": {
+          "fields": [
+            {
+              "field": "founded_year",
+              "status": "correct",
+              "detail": ""
+            },
+            {
+              "field": "hq",
+              "status": "correct",
+              "detail": ""
+            },
+            {
+              "field": "category",
+              "status": "correct",
+              "detail": ""
+            },
+            {
+              "field": "pricing_model",
+              "status": "correct",
+              "detail": ""
+            },
+            {
+              "field": "key_products",
+              "status": "correct",
+              "detail": "4/4 matched"
+            }
+          ],
+          "score": 100.0
+        }
+      }
+    },
+    "qwen/qwen3.6-27b": {
+      "parametric": {
+        "answer": "**Linear** is a high-performance issue tracking and project management tool designed specifically for modern software development teams. It has gained significant popularity for its speed, minimalist design, and focus on developer experience.\n\nHere\u2019s a detailed breakdown based on your questions:\n\n### 1. What Do They Do?\nLinear streamlines the process of planning, tracking, and releasing software. It replaces traditional, often clunky, project management tools (like Jira) with a fast, keyboard-centric interface that integrates deeply with developer workflows. Its core philosophy is to reduce friction and cognitive load for engineers and product managers.\n\n### 2. When Were They Founded?\nLinear was founded in **2019**.\n\n### 3. Where Are They Headquartered?\nLinear is headquartered in **San Francisco, California, USA**. It is a remote-first company, meaning most of its team works remotely.\n\n### 4. How Do They Price Their Product?\nLinear uses a **freemium model** with per-user, per-month pricing. As of 2024, their pricing tiers are generally structured as follows:\n\n- **Free Plan**: \n  - Free for up to 10 users.\n  - Includes core features like issues, projects, cycles, and basic integrations.\n  - Ideal for small teams or startups.\n\n- **Pro Plan**: \n  - **$8 per user/month** (billed annually) or $10 per user/month (billed monthly).\n  - Includes advanced features like:\n    - Advanced permissions and roles.\n    - Audit logs.\n    - Custom fields and views.\n    - Priority support.\n    - Advanced integrations (e.g., GitHub, GitLab, Bitbucket, Slack, Figma).\n    - SSO (Single Sign-On) and SCIM provisioning.\n\n- **Enterprise Plan**: \n  - Custom pricing.\n  - Includes all Pro features plus:\n    - Advanced security and compliance features.\n    - Dedicated customer success manager.\n    - Custom contracts and SLAs.\n    - Advanced admin controls.\n\n*Note: Pricing may vary slightly based on region and specific enterprise needs. Always check Linear\u2019s official website for the most current pricing.*\n\n### 5. Main Products and Features\nLinear is primarily a single, integrated product, but it offers several key features that define its value proposition:\n\n#### Core Features:\n- **Issues**: The fundamental unit of work in Linear. Issues can be bugs, features, tasks, or epics. They support rich text, attachments, and comments.\n- **Projects**: Containers for groups of issues. Projects help organize work by initiative, milestone, or team.\n- **Cycles**: Linear\u2019s take on sprints. Cycles are time-boxed periods (e.g., 1\u20132 weeks) where teams commit to completing a set of issues. Linear automates cycle management, making it easy to start, complete, and archive cycles.\n- **Views**: Customizable views (List, Board, Calendar, Timeline) to visualize work in the way that suits your team best.\n- **Keyboard-First Interface**: Linear is renowned for its speed and keyboard shortcuts, allowing power users to navigate and manage issues without touching the mouse.\n\n#### Integrations:\n- **Git Providers**: Deep integration with GitHub, GitLab, and Bitbucket. Issues can be linked to commits, pull requests, and branches automatically.\n- **Communication Tools**: Integrations with Slack, Discord, and Microsoft Teams for notifications and updates.\n- **Design Tools**: Integration with Figma for linking designs to issues.\n- **CI/CD**: Integrations with tools like Vercel, Netlify, and CircleCI for deployment status updates.\n\n#### Advanced Features (Pro/Enterprise):\n- **Custom Fields**: Add custom metadata to issues and projects.\n- **Permissions & Roles**: Granular control over who can create, edit, or delete issues and projects.\n- **Audit Logs**: Track changes and user activity for compliance and debugging.\n- **SSO & SCIM**: Enterprise-grade security and user provisioning.\n- **API & Webhooks**: Extensive API for building custom integrations and automations.\n\n### Why Linear Stands Out\n- **Speed**: Built with performance in mind, Linear is significantly faster than many competitors.\n- **Design**: Clean, minimal, and aesthetically pleasing interface.\n- **Developer-Centric**: Built by developers, for developers, with a focus on reducing context switching and administrative overhead.\n- **Automation**: Smart defaults and automation reduce manual work (e.g., auto-assigning issues, auto-completing cycles).\n\nLinear has become a popular choice for startups, scale-ups, and even large enterprises looking for a more efficient and enjoyable project management experience.",
+        "eval": {
+          "fields": [
+            {
+              "field": "founded_year",
+              "status": "correct",
+              "detail": ""
+            },
+            {
+              "field": "hq",
+              "status": "correct",
+              "detail": ""
+            },
+            {
+              "field": "category",
+              "status": "correct",
+              "detail": ""
+            },
+            {
+              "field": "pricing_model",
+              "status": "correct",
+              "detail": ""
+            },
+            {
+              "field": "key_products",
+              "status": "correct",
+              "detail": "3/4 matched"
+            }
+          ],
+          "score": 100.0
+        }
+      },
+      "ambient_web": {
+        "answer": "Based on the provided context, here is the information available regarding Linear:\n\n*   **What they do:** Linear builds an issue tracking and project management tool designed to empower product teams. They aim to combine UI elegance with world-class performance to help teams build products better.\n*   **When they were founded:** Linear was founded in 2019.\n*   **Where they are headquartered:** The context states that Linear was set up as a \"fully remote\" company, but it does not specify a physical headquarters location.\n*   **How they price their product:** The provided text does not contain information regarding Linear's pricing model.\n*   **Main products or features:** Their main product is an issue tracking and project management tool. The context highlights that it combines \"UI elegance with world-class performance.\"",
+        "eval": {
+          "fields": [
+            {
+              "field": "founded_year",
+              "status": "correct",
+              "detail": ""
+            },
+            {
+              "field": "hq",
+              "status": "incorrect",
+              "detail": "model said 'remote', actual 'san francisco'"
+            },
+            {
+              "field": "category",
+              "status": "correct",
+              "detail": ""
+            },
+            {
+              "field": "pricing_model",
+              "status": "missing",
+              "detail": ""
+            },
+            {
+              "field": "key_products",
+              "status": "correct",
+              "detail": "2/4 matched"
+            }
+          ],
+          "score": 70.0
+        }
+      },
+      "corrected": {
+        "answer": "Based on the provided context, here is the information about Linear:\n\n*   **What they do:** Linear provides project management and issue tracking software specifically designed for software teams.\n*   **Founded:** The company was founded in 2019.\n*   **Headquarters:** They are headquartered in San Francisco, California.\n*   **Pricing:** They use a per-seat subscription model with the following tiers:\n    *   Free\n    *   Basic (~$10-12/user/mo)\n    *   Business (~$16-18/user/mo)\n    *   Enterprise (custom pricing)\n*   **Main products/features:** Their key products include issue tracking, cycles, roadmaps, and Linear Insights.",
+        "eval": {
+          "fields": [
+            {
+              "field": "founded_year",
+              "status": "correct",
+              "detail": ""
+            },
+            {
+              "field": "hq",
+              "status": "correct",
+              "detail": ""
+            },
+            {
+              "field": "category",
+              "status": "correct",
+              "detail": ""
+            },
+            {
+              "field": "pricing_model",
+              "status": "correct",
+              "detail": ""
+            },
+            {
+              "field": "key_products",
+              "status": "correct",
+              "detail": "4/4 matched"
+            }
+          ],
+          "score": 100.0
+        }
+      }
+    }
+  },
+  "Vanta": {
+    "openai/gpt-oss-120b": {
+      "parametric": {
+        "answer": "**Vanta \u2013 Quick Overview**\n\n| Item | Details |\n|------|---------|\n| **What they do** | Vanta provides an automated compliance and security platform that helps businesses continuously monitor, certify, and maintain standards such as SOC\u202f2, ISO\u202f27001, HIPAA, GDPR, and CCPA. The service automates evidence collection, risk assessment, and audit readiness, allowing companies to achieve and retain compliance faster and at lower cost than traditional manual processes. |\n| **Founded** | **2016** (by **Josh Guttman** and **Taylor Glover**) |\n| **Headquarters** | **San Francisco, California, USA** (primary office) \u2013 the company also has a remote\u2011first workforce with additional offices/representatives in New York, London, and other locations. |\n| **Core Products / Features** | 1. **Continuous Compliance Engine** \u2013 real\u2011time monitoring of cloud infrastructure (AWS, GCP, Azure), SaaS tools (GitHub, G Suite, Office\u202f365, Slack, etc.) and internal policies. <br>2. **Automated Evidence Collection** \u2013 pulls logs, configuration snapshots, access\u2011control data, and other audit artifacts automatically. <br>3. **Control Library & Gap Analysis** \u2013 pre\u2011built control mappings for SOC\u202f2, ISO\u202f27001, HIPAA, PCI\u2011DSS, GDPR, CCPA, and custom frameworks; shows where you\u2019re missing evidence. <br>4. **Audit Readiness Dashboard** \u2013 visual status of each control, risk score, and \u201cready/not\u2011ready\u201d flags for auditors. <br>5. **Vendor Management** \u2013 assess and monitor third\u2011party risk with shared compliance reports. <br>6. **Policy & Training Automation** \u2013 host security policies, track employee acknowledgments, and deliver required training modules. <br>7. **Integrations** \u2013 native connectors for over 30 tools (e.g., Okta, Jira, PagerDuty, Datadog, Terraform, Cloudflare) plus API/webhooks for custom data sources. <br>8. **SOC\u202f2 & ISO\u202f27001 Certification Services** \u2013 optional add\u2011on where Vanta\u2019s compliance team helps you prepare for the final audit and works directly with auditors. |\n| **Pricing Model** | Vanta uses a **subscription\u2011based SaaS pricing** that is tiered by the number of **employees/users** and the **scope of compliance frameworks** you need. The exact numbers can vary (they often negotiate enterprise contracts), but the publicly disclosed structure (as of 2024) looks roughly like this: <br>\u2022 **Starter / Small Business** \u2013 $99\u202f\u2013\u202f$199\u202fper month, covers up to 50 employees, SOC\u202f2 Type\u202fI or basic GDPR. <br>\u2022 **Growth / Mid\u2011Market** \u2013 $399\u202f\u2013\u202f$799\u202fper month, 51\u2011250 employees, includes SOC\u202f2 Type\u202fII, ISO\u202f27001, HIPAA, plus unlimited integrations. <br>\u2022 **Enterprise** \u2013 custom pricing (typically $1,200\u202f+\u202fper month) for >250 employees, multiple frameworks, dedicated account manager, SSO/SAML, on\u2011premise data residency options, and priority support. <br>All plans are **annual contracts** (monthly billing available at a higher rate). Vanta also offers a **free trial** (usually 14\u201130 days) and a **\u201cPay\u2011as\u2011you\u2011go\u201d pilot** for startups that want to test the platform before committing. Discounts are common for multi\u2011year commitments or for companies that bundle Vanta with a partner audit firm. |\n| **Typical Customers** | SaaS startups, fintech firms, health\u2011tech companies, e\u2011commerce platforms, and any tech\u2011driven organization that must demonstrate security compliance to investors, partners, or regulators. Notable customers (publicly mentioned) include **Stripe, Loom, Notion, Plaid, Segment, and Coinbase**. |\n| **Why Companies Choose Vanta** | \u2022 **Speed** \u2013 SOC\u202f2 can be achieved in weeks vs. months. <br>\u2022 **Automation** \u2013 reduces manual evidence\u2011gathering effort by 70\u201190\u202f%. <br>\u2022 **Continuous monitoring** \u2013 compliance stays \u201con\u201d rather than a one\u2011time audit. <br>\u2022 **Audit\u2011ready reports** \u2013 auditors can pull a live dashboard instead of requesting files. <br>\u2022 **Scalability** \u2013 works for 5\u2011person startups and 10,000\u2011employee enterprises alike. |\n\n---\n\n### TL;DR Summary\n\n- **What:** Automated compliance platform (SOC\u202f2, ISO\u202f27001, HIPAA, GDPR, etc.) that continuously monitors infrastructure, collects evidence, and prepares companies for audits.  \n- **Founded:** 2016 (Josh Guttman & Taylor Glover).  \n- **HQ:** San Francisco, CA (remote\u2011first with other offices).  \n- **Pricing:** Tiered SaaS subscription (\u2248$100\u2011$200/mo for tiny teams, $400\u2011$800/mo for mid\u2011size, custom enterprise pricing). Annual contracts, free trial available.  \n- **Main Products/Features:** Continuous compliance engine, automated evidence collection, control library & gap analysis, audit\u2011readiness dashboard, vendor risk management, policy/training automation, 30+ integrations, optional audit\u2011assistance services.  \n\nIf you need deeper details\u2014such as a breakdown of the control mappings, a demo request process, or how Vanta integrates with a specific tool\u2014just let me know!",
+        "eval": {
+          "fields": [
+            {
+              "field": "founded_year",
+              "status": "incorrect",
+              "detail": "model said 2016, actual 2018"
+            },
+            {
+              "field": "hq",
+              "status": "correct",
+              "detail": ""
+            },
+            {
+              "field": "category",
+              "status": "correct",
+              "detail": ""
+            },
+            {
+              "field": "pricing_model",
+              "status": "correct",
+              "detail": ""
+            },
+            {
+              "field": "key_products",
+              "status": "correct",
+              "detail": "3/4 matched"
+            }
+          ],
+          "score": 85.0
+        }
+      },
+      "ambient_web": {
+        "answer": "**What Vanta does**  \nVanta is an American software company that offers an *agentic trust platform* (also described as an AI\u2011powered Trust Management Platform) that automates information\u2011security monitoring, compliance, risk management and audit processes for businesses. The platform helps companies \u201cearn and prove trust\u201d by streamlining security\u2011compliance work, cutting audit time, and reducing costs.\n\n**Founding**  \n- Vanta was founded in **2018** during a wave of high\u2011profile data\u2011breach incidents.  \n- The company emerged from the Y\u202fCombinator startup accelerator program.\n\n**Headquarters**  \n- The provided context does not include information about Vanta\u2019s headquarters location.\n\n**Pricing**  \n- Vanta does not publish a fixed price list.  \n- Prospective customers are invited to **request a free demo** and discuss their specific business needs, after which they receive **personalized pricing**.\n\n**Main products / features**  \n- **Agentic Trust Platform** \u2013 the core offering that automates security\u2011compliance monitoring and management.  \n- **AI\u2011powered Trust Management** \u2013 uses artificial intelligence to streamline compliance, security, and risk\u2011management tasks.  \n- The platform is positioned to **save hundreds of hours and hundreds of thousands of dollars**, halve audit time, and help companies build trust with enterprise prospects.\n\nThese points summarize Vanta\u2019s purpose, origin, pricing approach, and key product capabilities as described in the supplied context.",
+        "eval": {
+          "fields": [
+            {
+              "field": "founded_year",
+              "status": "correct",
+              "detail": ""
+            },
+            {
+              "field": "hq",
+              "status": "missing",
+              "detail": ""
+            },
+            {
+              "field": "category",
+              "status": "correct",
+              "detail": ""
+            },
+            {
+              "field": "pricing_model",
+              "status": "missing",
+              "detail": ""
+            },
+            {
+              "field": "key_products",
+              "status": "correct",
+              "detail": "3/4 matched"
+            }
+          ],
+          "score": 73.8
+        }
+      },
+      "corrected": {
+        "answer": "Vanta is a security and compliance automation platform.  \n\n- **Founded:** 2018 (founded by Christina\u202fCacioppo)  \n- **Headquarters:** San\u202fFrancisco, California  \n- **Pricing model:** Annual subscription with custom quotes, typically starting at about\u202f$10,000\u202fper year.  \n- **Main products / features:**  \n  * SOC\u202f2 automation  \n  * ISO\u202f27001 automation  \n  * Trust Center  \n  * Vendor risk management  \n\nThese details come directly from the provided context.",
+        "eval": {
+          "fields": [
+            {
+              "field": "founded_year",
+              "status": "correct",
+              "detail": ""
+            },
+            {
+              "field": "hq",
+              "status": "correct",
+              "detail": ""
+            },
+            {
+              "field": "category",
+              "status": "correct",
+              "detail": ""
+            },
+            {
+              "field": "pricing_model",
+              "status": "correct",
+              "detail": ""
+            },
+            {
+              "field": "key_products",
+              "status": "correct",
+              "detail": "4/4 matched"
+            }
+          ],
+          "score": 100.0
+        }
+      }
+    },
+    "openai/gpt-oss-20b": {
+      "parametric": {
+        "answer": "**Vanta** is a SaaS company that helps businesses automate and maintain compliance with a range of security and privacy frameworks (e.g., SOC\u202f2, ISO\u202f27001, HIPAA, GDPR, PCI\u2011DSS). By continuously monitoring security controls, collecting evidence, and generating audit-ready reports, Vanta reduces the time, cost, and manual effort required to pass external audits.\n\n| Item | Details |\n|------|---------|\n| **Founded** | 2018 |\n| **Founders** | **Jesse Brown** (CEO) and **Matt McGowan** (CTO) |\n| **Headquarters** | San Francisco, California, USA (with additional offices in Austin, Texas, and London, UK) |\n| **Core Mission** | \u201cMake compliance simple, fast, and affordable for modern tech companies.\u201d |\n\n---\n\n## How Vanta Works\n\n1. **Continuous Monitoring** \u2013 Vanta connects to a company\u2019s cloud accounts, GitHub, Slack, and other tools to automatically collect evidence of security controls (e.g., access logs, configuration settings, code reviews).\n2. **Evidence Management** \u2013 The platform stores all evidence in a secure, searchable repository, automatically tagging it for the relevant compliance framework.\n3. **Audit Readiness** \u2013 Vanta generates audit\u2011ready reports and a \u201cCompliance Dashboard\u201d that shows real\u2011time status for each control.\n4. **Remediation Guidance** \u2013 When a control is missing or non\u2011compliant, Vanta provides actionable steps and tracks progress until the issue is resolved.\n\n---\n\n## Pricing Model\n\nVanta follows a **subscription\u2011based, usage\u2011tiered** pricing structure. Exact numbers can vary by region and contract, but the general tiers are:\n\n| Tier | Typical Company Size | Monthly Price (USD) | Key Features |\n|------|----------------------|---------------------|--------------|\n| **Starter** | 1\u201310 employees | $99\u2013$149 | Basic SOC\u202f2 monitoring, 1\u2011year audit readiness, email support |\n| **Growth** | 10\u201350 employees | $199\u2013$399 | All Starter features + ISO\u202f27001, HIPAA, GDPR, 24/7 chat support |\n| **Scale** | 50\u2013200 employees | $499\u2013$799 | All Growth features + PCI\u2011DSS, custom frameworks, priority support |\n| **Enterprise** | 200+ employees | Custom pricing | Unlimited users, dedicated success manager, on\u2011prem or hybrid deployment options |\n\n- **Add\u2011ons**: Extra users, additional compliance frameworks, or advanced integrations can be purchased separately.\n- **Free Trial**: Vanta typically offers a 14\u2011day free trial with full access to the platform\u2019s core features.\n\n> **Note**: Pricing is subject to change; always check Vanta\u2019s official website or contact sales for the most up\u2011to\u2011date information.\n\n---\n\n## Main Products & Features\n\n| Product / Feature | Description |\n|-------------------|-------------|\n| **Compliance Dashboard** | Real\u2011time view of control status across all frameworks. |\n| **Evidence Repository** | Secure, searchable storage of logs, screenshots, and policy documents. |\n| **Automated Evidence Collection** | Connects to AWS, GCP, Azure, GitHub, Slack, etc., to pull evidence automatically. |\n| **Audit\u2011Ready Reports** | Generates SOC\u202f2, ISO\u202f27001, HIPAA, GDPR, PCI\u2011DSS reports ready for auditors. |\n| **Remediation Tracker** | Assigns tasks, tracks progress, and sends reminders for non\u2011compliant controls. |\n| **Policy Library** | Pre\u2011built templates for security policies (e.g., Incident Response, Data Retention). |\n| **Integrations** | Native connectors for cloud providers, CI/CD pipelines, ticketing systems, and more. |\n| **Compliance Calendar** | Reminders for upcoming audit deadlines and control review dates. |\n| **Security Score** | Quantifies overall security posture and highlights improvement areas. |\n| **Audit Trail** | Logs all changes and evidence uploads for audit purposes. |\n\n---\n\n## Why Companies Choose Vanta\n\n- **Speed**: Automates evidence collection, cutting audit preparation time from months to days.\n- **Accuracy**: Continuous monitoring reduces human error and ensures evidence is always up\u2011to\u2011date.\n- **Cost\u2011Effectiveness**: Eliminates the need for large audit teams or external consultants for routine compliance.\n- **Scalability**: Works for startups, mid\u2011market firms, and large enterprises with complex environments.\n- **Ease of Use**: Intuitive UI, guided remediation, and clear reporting make it accessible to non\u2011security teams.\n\n---\n\n### Quick Takeaway\n\nVanta is a compliance\u2011automation platform founded in 2018, headquartered in San Francisco, that helps tech companies stay audit\u2011ready by continuously monitoring security controls and generating ready\u2011to\u2011submit reports. Its tiered subscription pricing starts at around $99/month for small teams and scales to custom enterprise plans, with a focus on SOC\u202f2, ISO\u202f27001, HIPAA, GDPR, and PCI\u2011DSS compliance.",
+        "eval": {
+          "fields": [
+            {
+              "field": "founded_year",
+              "status": "correct",
+              "detail": ""
+            },
+            {
+              "field": "hq",
+              "status": "correct",
+              "detail": ""
+            },
+            {
+              "field": "category",
+              "status": "correct",
+              "detail": ""
+            },
+            {
+              "field": "pricing_model",
+              "status": "correct",
+              "detail": ""
+            },
+            {
+              "field": "key_products",
+              "status": "correct",
+              "detail": "3/4 matched"
+            }
+          ],
+          "score": 100.0
+        }
+      },
+      "ambient_web": {
+        "answer": "**Vanta \u2013 Quick Overview**\n\n| Question | Answer |\n|----------|--------|\n| **What does Vanta do?** | Vanta provides an AI\u2011powered \u201cAgentic Trust Platform\u201d that automates information\u2011security monitoring and compliance management. It helps companies track, document, and prove adherence to security and regulatory standards, thereby speeding up audits and building trust with customers and partners. |\n| **When was it founded?** | 2018 |\n| **Where is it headquartered?** | The provided context does not specify Vanta\u2019s headquarters. |\n| **How does Vanta price its product?** | Vanta offers a free demo to discuss business needs and then provides personalized pricing. No fixed public price list is mentioned. |\n| **What are Vanta\u2019s main products or features?** | \u2022 Automated compliance monitoring (e.g., SOC 2, ISO 27001, HIPAA, etc.)<br>\u2022 Continuous security posture tracking<br>\u2022 Risk and audit management tools<br>\u2022 AI\u2011driven insights and reporting<br>\u2022 Integration with existing tools and workflows to streamline evidence collection for audits |\n\n*If you need more detailed pricing or location information, you may want to contact Vanta directly or visit their official website.*",
+        "eval": {
+          "fields": [
+            {
+              "field": "founded_year",
+              "status": "correct",
+              "detail": ""
+            },
+            {
+              "field": "hq",
+              "status": "missing",
+              "detail": ""
+            },
+            {
+              "field": "category",
+              "status": "correct",
+              "detail": ""
+            },
+            {
+              "field": "pricing_model",
+              "status": "missing",
+              "detail": ""
+            },
+            {
+              "field": "key_products",
+              "status": "correct",
+              "detail": "4/4 matched"
+            }
+          ],
+          "score": 73.8
+        }
+      },
+      "corrected": {
+        "answer": "Vanta is a security and compliance automation platform.  \n- **What they do:** Automate the processes needed for security and compliance certifications such as SOC\u202f2 and ISO\u202f27001, and provide tools for vendor risk management and a Trust Center.  \n- **Founded:** 2018.  \n- **Headquarters:** San\u202fFrancisco, California.  \n- **Pricing model:** Annual subscription, custom\u2011quoted, typically $10,000+ per year.  \n- **Main products/features:** SOC\u202f2 automation, ISO\u202f27001 automation, Trust Center, and vendor risk management.",
+        "eval": {
+          "fields": [
+            {
+              "field": "founded_year",
+              "status": "correct",
+              "detail": ""
+            },
+            {
+              "field": "hq",
+              "status": "correct",
+              "detail": ""
+            },
+            {
+              "field": "category",
+              "status": "correct",
+              "detail": ""
+            },
+            {
+              "field": "pricing_model",
+              "status": "correct",
+              "detail": ""
+            },
+            {
+              "field": "key_products",
+              "status": "correct",
+              "detail": "4/4 matched"
+            }
+          ],
+          "score": 100.0
+        }
+      }
+    },
+    "qwen/qwen3.6-27b": {
+      "parametric": {
+        "answer": "**Vanta** is a leading compliance automation platform designed to help technology companies, startups, and enterprises streamline their security and compliance processes. Instead of manually gathering evidence and filling out lengthy questionnaires for audits, companies use Vanta to automatically collect data from their cloud infrastructure, HR systems, and other tools to prove they meet specific regulatory standards.\n\n### Key Details\n\n- **What They Do**:  \n  Vanta automates compliance for frameworks such as **SOC 2**, **ISO 27001**, **HIPAA**, **GDPR**, **PCI DSS**, and **CMMC**. It continuously monitors a company\u2019s systems for compliance gaps, alerts teams to issues, and generates audit-ready reports. This significantly reduces the time and cost required to achieve and maintain compliance certifications.\n\n- **Founded**:  \n  Vanta was founded in **2017**.\n\n- **Headquarters**:  \n  The company is headquartered in **San Francisco, California, USA**. It also has offices in New York, London, and other locations, and operates as a remote-first company.\n\n- **Pricing Model**:  \n  Vanta uses a **tiered subscription pricing model** based on the number of employees and the specific compliance frameworks needed. While exact prices are not publicly listed and require a quote, general industry knowledge and past public information suggest:\n  - **Starter/Basic Plans**: Typically start around **$300\u2013$500 per month** for small teams with basic compliance needs (e.g., SOC 2 Type I).\n  - **Professional/Advanced Plans**: Range from **$1,000 to $3,000+ per month** for larger organizations needing multiple frameworks (e.g., SOC 2 Type II, ISO 27001, HIPAA).\n  - Pricing often scales with the number of employees and the complexity of the compliance requirements.\n  - Vanta often offers a **free trial** or a **pilot program** for potential customers.\n\n- **Main Products & Features**:\n  1. **Automated Evidence Collection**: Integrates with over 100+ tools (e.g., AWS, Azure, GCP, GitHub, Slack, Okta, Workday) to automatically gather compliance evidence.\n  2. **Continuous Monitoring**: Real-time dashboards that show compliance status and alert teams to policy violations or security gaps.\n  3. **Policy Management**: Pre-built, customizable security policies and templates that align with industry standards.\n  4. **Vendor Risk Management**: Tools to assess and monitor third-party vendors for security risks.\n  5. **Access Management**: Helps enforce least-privilege access and monitor user permissions across systems.\n  6. **Incident Response**: Guidance and templates for handling security incidents in compliance with regulatory requirements.\n  7. **Audit Support**: Direct collaboration features with auditors to streamline the audit process and reduce back-and-forth communication.\n\n### Why Companies Use Vanta\n- **Speed**: Reduces time to compliance from months to weeks.\n- **Cost Efficiency**: Lowers the need for large internal compliance teams or expensive consultants.\n- **Customer Trust**: Helps companies win enterprise clients by demonstrating robust security practices.\n- **Continuous Compliance**: Maintains compliance year-round, not just during audit periods.\n\nVanta has become a standard tool in the tech industry, especially for SaaS companies seeking to accelerate sales cycles by quickly obtaining SOC 2 and other certifications.",
+        "eval": {
+          "fields": [
+            {
+              "field": "founded_year",
+              "status": "incorrect",
+              "detail": "model said 2017, actual 2018"
+            },
+            {
+              "field": "hq",
+              "status": "correct",
+              "detail": ""
+            },
+            {
+              "field": "category",
+              "status": "correct",
+              "detail": ""
+            },
+            {
+              "field": "pricing_model",
+              "status": "correct",
+              "detail": ""
+            },
+            {
+              "field": "key_products",
+              "status": "correct",
+              "detail": "4/4 matched"
+            }
+          ],
+          "score": 85.0
+        }
+      },
+      "ambient_web": {
+        "answer": "Based on the provided context, here is the information regarding Vanta:\n\n**What they do and Main Products/Features**\nVanta is an American software company that provides an \"Agentic Trust Platform\" (also described as an AI-powered Trust Management Platform). The platform automates information security monitoring, compliance management, security, and risk management for businesses. Its goal is to help companies earn and prove trust, achieve compliance, and save time and money on audits.\n\n**When they were founded**\nVanta was founded in 2018.\n\n**Where they are headquartered**\nThe provided text does not state where Vanta is headquartered.\n\n**How they price their product**\nVanta offers personalized pricing. Interested parties are asked to request a free demo to discuss their business needs and receive pricing details.",
+        "eval": {
+          "fields": [
+            {
+              "field": "founded_year",
+              "status": "correct",
+              "detail": ""
+            },
+            {
+              "field": "hq",
+              "status": "missing",
+              "detail": ""
+            },
+            {
+              "field": "category",
+              "status": "correct",
+              "detail": ""
+            },
+            {
+              "field": "pricing_model",
+              "status": "missing",
+              "detail": ""
+            },
+            {
+              "field": "key_products",
+              "status": "correct",
+              "detail": "3/4 matched"
+            }
+          ],
+          "score": 73.8
+        }
+      },
+      "corrected": {
+        "answer": "Based on the provided context, here is the information about Vanta:\n\n*   **What they do:** Vanta is a security and compliance automation platform.\n*   **Founded:** 2018\n*   **Headquarters:** San Francisco, California\n*   **Pricing:** They use an annual subscription model that is custom-quoted, typically costing $10,000+ per year.\n*   **Main products/features:** Their key products include SOC 2 automation, ISO 27001 automation, Trust Center, and vendor risk management.",
+        "eval": {
+          "fields": [
+            {
+              "field": "founded_year",
+              "status": "correct",
+              "detail": ""
+            },
+            {
+              "field": "hq",
+              "status": "correct",
+              "detail": ""
+            },
+            {
+              "field": "category",
+              "status": "correct",
+              "detail": ""
+            },
+            {
+              "field": "pricing_model",
+              "status": "correct",
+              "detail": ""
+            },
+            {
+              "field": "key_products",
+              "status": "correct",
+              "detail": "4/4 matched"
+            }
+          ],
+          "score": 100.0
+        }
+      }
+    }
+  },
+  "Retool": {
+    "openai/gpt-oss-120b": {
+      "parametric": {
+        "answer": "**Retool \u2013 Quick\u2011fire overview**\n\n| Item | Details |\n|------|---------|\n| **What they do** | Retool is a low\u2011code development platform that lets engineers and product teams build internal tools, admin dashboards, CRUD apps, and workflow automations by stitching together UI components with APIs, databases, and custom JavaScript. It\u2019s marketed as \u201cthe fastest way to build internal tools.\u201d |\n| **Founded** | 2017 (by David Hsu, Cameron \u201cCam\u201d Davidson, and co\u2011founder **?** \u2013 the core team originally built the product while at a Y Combinator\u2011backed startup). |\n| **Headquarters** | San Francisco, California, USA (address: 100 Pine St, Suite 300, San Francisco, CA\u202f94111). The company also has a remote\u2011first workforce with engineering hubs in the US, Europe, and Asia. |\n| **Core product** | **Retool Cloud** \u2013 a SaaS platform (also available as a self\u2011hosted/on\u2011prem version) where you drag\u2011and\u2011drop pre\u2011built UI components (tables, charts, forms, maps, rich text, etc.) and bind them to data sources using a simple query builder or JavaScript. |\n| **Key features** | 1. **Component library** \u2013 > 50 ready\u2011made UI widgets (tables, charts, calendars, file upload, code editors, etc.).<br>2. **Data source connectors** \u2013 native integrations for PostgreSQL, MySQL, MongoDB, Redis, Snowflake, BigQuery, DynamoDB, REST/GraphQL APIs, SOAP, Firebase, Stripe, Salesforce, HubSpot, Airtable, and many more. You can also add custom connectors via ODBC/JDBC or a generic \u201cREST API\u201d block.<br>3. **Query builder & JavaScript** \u2013 Write SQL, NoSQL, or API calls in a visual editor; then manipulate results with JavaScript (or TypeScript) directly in the UI layer.<br>4. **Authentication & RBAC** \u2013 SSO (SAML, OIDC, Azure AD, Okta, Google Workspace), LDAP, and granular role\u2011based access control for apps, components, and data queries.<br>5. **Version control & collaboration** \u2013 Git integration (GitHub, GitLab, Bitbucket) for app versioning, branching, and pull\u2011request workflows; real\u2011time multi\u2011user editing.<br>6. **Deployments** \u2013 One\u2011click publishing to a public URL, embedded iframe, or as a private internal portal; optional self\u2011hosted Docker/Kubernetes deployment for on\u2011prem or VPC\u2011isolated use.<br>7. **Automation & workflows** \u2013 \u201cTriggers\u201d and \u201cActions\u201d let you run background jobs, send Slack/Email notifications, or invoke serverless functions (AWS Lambda, GCP Cloud Functions, etc.) on button clicks or schedule. |\n| **Pricing (as of\u202f2024\u20112025)** | Retool offers three main tiers; pricing is per user (seat) per month, with discounts for annual commitments and enterprise volume. Exact numbers can shift, but the typical structure is: <br>\u2022 **Free / \u201cStarter\u201d** \u2013 $0 for up to 5 users, limited to 10 apps, community\u2011only support, and only cloud\u2011hosted. <br>\u2022 **Professional** \u2013 ~$50\u202f\u2013\u202f$80\u202fUSD per user/month (billed annually). Includes unlimited apps, all standard connectors, SSO, RBAC, audit logs, and email support. <br>\u2022 **Enterprise** \u2013 custom pricing (usually $120\u202f\u2013\u202f$200\u202fUSD per user/month or a flat\u2011rate for large seat counts). Adds: dedicated account manager, SLA\u2011backed support, on\u2011prem/self\u2011hosted deployment, advanced security (VPC, private link), custom SLAs, usage\u2011based billing for API calls, and compliance certifications (SOC\u202f2, ISO\u202f27001, HIPAA). <br>\u2022 **Add\u2011ons** \u2013 extra seats, premium connectors (e.g., Snowflake, Salesforce), and \u201cRetool\u202fAI\u201d (code\u2011assist) are billed separately. <br>Retool also provides a **pay\u2011as\u2011you\u2011go** option for \u201cdeveloper\u2011only\u201d seats (lower price, no SSO). |\n| **Typical use cases** | \u2022 Customer\u2011support dashboards (view tickets, update status, trigger refunds).<br>\u2022 Finance & ops tools (reconcile payments, generate reports, manage inventory).<br>\u2022 Sales enablement (CRM overlays, quote generators).<br>\u2022 Data\u2011science admin panels (run queries, visualize model outputs).<br>\u2022 IT & security consoles (manage user access, audit logs). |\n| **Competitive landscape** | \u2022 **Internal.com**, **Appsmith**, **Budibase**, **Mendix**, **OutSystems**, **Microsoft Power Apps**, **Google AppSheet**. Retool differentiates itself with a developer\u2011centric UI (full JavaScript freedom) and a very rich set of pre\u2011built enterprise connectors. |\n| **Recent highlights (2023\u20112024)** | \u2013 Launched **Retool\u202fAI** (ChatGPT\u2011powered code suggestions, query generation, and UI auto\u2011layout).<br>\u2013 Added **Self\u2011Hosted VPC** offering for highly regulated industries.<br>\u2013 Reached **$200\u202fM+ ARR** and raised a $200\u202fM Series\u202fC round (led by Sequoia Capital).<br>\u2013 Expanded the component library with **Mapbox**, **Gantt**, and **Kanban** widgets. |\n\n### TL;DR\n\n",
+        "eval": {
+          "fields": [
+            {
+              "field": "founded_year",
+              "status": "correct",
+              "detail": ""
+            },
+            {
+              "field": "hq",
+              "status": "correct",
+              "detail": ""
+            },
+            {
+              "field": "category",
+              "status": "correct",
+              "detail": ""
+            },
+            {
+              "field": "pricing_model",
+              "status": "correct",
+              "detail": ""
+            },
+            {
+              "field": "key_products",
+              "status": "correct",
+              "detail": "3/3 matched"
+            }
+          ],
+          "score": 100.0
+        }
+      },
+      "ambient_web": {
+        "answer": "**Retool \u2013 Overview (based on the provided context)**  \n\n| Item | Details from the context |\n|------|---------------------------|\n| **What they do** | Retool is an **internal\u2011tools and business\u2011software platform** that lets teams build, scale, and manage custom internal applications and workflows without needing deep programming expertise. It provides the infrastructure for creating \u201cinternal tools\u201d that power day\u2011to\u2011day operations. |\n| **Founding year** | **2017** (the company was founded in 2017). |\n| **Headquarters** | **San Francisco, California, USA**. |\n| **Pricing model** | Retool offers a **tiered pricing structure** that scales with the size and needs of a business. Key points from the context: <br>\u2022 **Free Plan** \u2013 $0/month, supports up to\u202f5 end users, unlimited web apps & native mobile apps. <br>\u2022 Paid plans are based on **\u201cBuilder\u201d** users (people who create or edit apps/workflows during the billing cycle) and **\u201cInternal\u201d** users (people who only use the apps). <br>\u2022 Pricing is flexible and can be customized for larger teams that need more control, with the ability to restrict edit permissions for internal users. |\n| **Main products / features** | \u2022 **Low\u2011code/No\u2011code app builder** \u2013 drag\u2011and\u2011drop interface to create internal tools quickly. <br>\u2022 **Unlimited web and native\u2011mobile applications** (even on the free tier). <br>\u2022 **Permission controls** \u2013 differentiate between builders and internal users, restrict editing rights. <br>\u2022 **Scalable infrastructure** for teams that need production\u2011grade internal tools. <br>\u2022 **Support for multiple end\u2011users** with pricing that scales as more users are added. |\n\n**Summary**  \nRetool is a San\u2011Francisco\u2011based company founded in 2017 that provides a platform for building internal business tools without extensive coding. It offers a free tier for small teams and paid, usage\u2011based plans that distinguish between creators (Builders) and consumers (Internal users), with flexible pricing that grows with the organization. Its core offering is a low\u2011code app builder that supports unlimited web and mobile apps, robust permission settings, and enterprise\u2011grade scalability.",
+        "eval": {
+          "fields": [
+            {
+              "field": "founded_year",
+              "status": "correct",
+              "detail": ""
+            },
+            {
+              "field": "hq",
+              "status": "correct",
+              "detail": ""
+            },
+            {
+              "field": "category",
+              "status": "correct",
+              "detail": ""
+            },
+            {
+              "field": "pricing_model",
+              "status": "correct",
+              "detail": ""
+            },
+            {
+              "field": "key_products",
+              "status": "correct",
+              "detail": "3/3 matched"
+            }
+          ],
+          "score": 100.0
+        }
+      },
+      "corrected": {
+        "answer": "Retool is a low\u2011code platform that lets companies build internal business tools with a drag\u2011and\u2011drop app builder.  \n\n- **Founded:** 2017 (founded by David Hsu)  \n- **Headquarters:** San Francisco, California  \n- **Pricing model:** Per\u2011user subscription that distinguishes between Standard Users and End Users, with a free tier that supports up to 5 users.  \n- **Main products / features:**  \n  1. Drag\u2011and\u2011drop app builder  \n  2. Retool\u202fWorkflows  \n  3. Retool\u202fAI  \n\nThese are the details provided in the available context.",
+        "eval": {
+          "fields": [
+            {
+              "field": "founded_year",
+              "status": "correct",
+              "detail": ""
+            },
+            {
+              "field": "hq",
+              "status": "correct",
+              "detail": ""
+            },
+            {
+              "field": "category",
+              "status": "correct",
+              "detail": ""
+            },
+            {
+              "field": "pricing_model",
+              "status": "correct",
+              "detail": ""
+            },
+            {
+              "field": "key_products",
+              "status": "correct",
+              "detail": "3/3 matched"
+            }
+          ],
+          "score": 100.0
+        }
+      }
+    },
+    "openai/gpt-oss-20b": {
+      "parametric": {
+        "answer": "**Retool \u2013 Quick Overview**\n\n| Topic | Details |\n|-------|---------|\n| **What they do** | Retool is a low\u2011code platform that lets teams build internal tools (dashboards, admin panels, data\u2011centric apps, etc.) by dragging and dropping UI components and wiring them to databases, APIs, and other services. It\u2019s designed to speed up the creation of custom business applications without writing a lot of boilerplate code. |\n| **Founded** | 2017 |\n| **Headquarters** | San Francisco, California, USA (with additional offices in New York, London, and Berlin) |\n| **Pricing** | Retool offers a tiered subscription model (as of 2024). The main tiers are: |\n| | \u2022 **Starter** \u2013 $10/month per user (free trial available). Ideal for small teams or prototypes. |\n| | \u2022 **Team** \u2013 $30/month per user. Adds more integrations, user management, and support. |\n| | \u2022 **Business** \u2013 $60/month per user. Includes advanced security, SSO, audit logs, and priority support. |\n| | \u2022 **Enterprise** \u2013 Custom pricing. Provides dedicated support, on\u2011prem or private\u2011cloud deployment, advanced compliance features, and custom SLAs. |\n| | All plans are billed annually or monthly; discounts apply for larger teams. |\n| **Main Products / Features** | 1. **Drag\u2011and\u2011Drop UI Builder** \u2013 Pre\u2011built components (tables, forms, charts, maps, etc.) that can be styled and configured. |\n| | 2. **Data Connectors** \u2013 Built\u2011in connectors for SQL/NoSQL databases, REST/GraphQL APIs, Firebase, Stripe, Slack, etc., plus a generic \u201cREST API\u201d connector. |\n| | 3. **Query Editor** \u2013 SQL, JavaScript, or GraphQL queries that can be reused across components. |\n| | 4. **Reusable Components & Templates** \u2013 Save and share custom components or entire app templates within an organization. |\n| | 5. **Auth & Permissions** \u2013 Role\u2011based access control, SSO (OAuth, SAML), and fine\u2011grained permissions for data and UI elements. |\n| | 6. **Deployment Options** \u2013 Cloud\u2011hosted (Retool SaaS) or self\u2011hosted on Kubernetes/VMs for on\u2011prem or private\u2011cloud use. |\n| | 7. **Version Control & Collaboration** \u2013 Git\u2011style branching, merge requests, and comment threads for team collaboration. |\n| | 8. **Analytics & Monitoring** \u2013 Built\u2011in usage metrics, error logging, and performance dashboards. |\n| | 9. **Extensibility** \u2013 Ability to write custom JavaScript, use webhooks, and embed Retool apps in other web pages or portals. |\n\n**Bottom line:** Retool is a rapid\u2011development platform focused on internal tooling, offering a visual builder, extensive data connectors, and a flexible pricing structure that scales from small startups to large enterprises.",
+        "eval": {
+          "fields": [
+            {
+              "field": "founded_year",
+              "status": "correct",
+              "detail": ""
+            },
+            {
+              "field": "hq",
+              "status": "correct",
+              "detail": ""
+            },
+            {
+              "field": "category",
+              "status": "correct",
+              "detail": ""
+            },
+            {
+              "field": "pricing_model",
+              "status": "correct",
+              "detail": ""
+            },
+            {
+              "field": "key_products",
+              "status": "correct",
+              "detail": "3/3 matched"
+            }
+          ],
+          "score": 100.0
+        }
+      },
+      "ambient_web": {
+        "answer": "**Retool \u2013 Overview**\n\n| Topic | Details |\n|-------|---------|\n| **What they do** | Retool is an internal\u2011tools and business\u2011software platform that lets teams build and scale custom internal applications without needing to write code. It provides a low\u2011code environment for creating web and native mobile apps that connect to databases, APIs, and other data sources. |\n| **Founded** | 2017 |\n| **Headquarters** | San Francisco, California, USA |\n| **Pricing** | \u2022 **Free Plan** \u2013 $0/month, up to 5 end users, unlimited web apps & native mobile apps. <br>\u2022 **Paid plans** \u2013 Pricing scales with the number of \u201cbuilder\u201d users (those who create or edit apps) and \u201cinternal\u201d users (those who use apps but don\u2019t edit them). The exact dollar amounts vary by plan and are tailored to the organization\u2019s size and needs. |\n| **Main products/features** | \u2022 Low\u2011code app builder for web and native mobile. <br>\u2022 Drag\u2011and\u2011drop UI components and pre\u2011built integrations. <br>\u2022 Permission controls to restrict editing rights. <br>\u2022 Ability to connect to databases, REST APIs, GraphQL, and other data sources. <br>\u2022 Deployment options for on\u2011premises or cloud hosting. |\n\n*All information is taken directly from the provided context.*",
+        "eval": {
+          "fields": [
+            {
+              "field": "founded_year",
+              "status": "correct",
+              "detail": ""
+            },
+            {
+              "field": "hq",
+              "status": "correct",
+              "detail": ""
+            },
+            {
+              "field": "category",
+              "status": "correct",
+              "detail": ""
+            },
+            {
+              "field": "pricing_model",
+              "status": "correct",
+              "detail": ""
+            },
+            {
+              "field": "key_products",
+              "status": "correct",
+              "detail": "3/3 matched"
+            }
+          ],
+          "score": 100.0
+        }
+      },
+      "corrected": {
+        "answer": "Retool is a low\u2011code platform that lets companies build internal business tools quickly.  \n- **Founded:** 2017  \n- **Headquarters:** San\u202fFrancisco, California  \n- **Pricing model:** Per\u2011user subscription with two tiers (Standard Users and End Users); there is a free tier that supports up to 5 users.  \n- **Main products/features:**  \n  - Drag\u2011and\u2011drop app builder  \n  - Retool Workflows  \n  - Retool AI  \n\nThese tools enable teams to create custom internal applications without writing extensive code.",
+        "eval": {
+          "fields": [
+            {
+              "field": "founded_year",
+              "status": "correct",
+              "detail": ""
+            },
+            {
+              "field": "hq",
+              "status": "correct",
+              "detail": ""
+            },
+            {
+              "field": "category",
+              "status": "correct",
+              "detail": ""
+            },
+            {
+              "field": "pricing_model",
+              "status": "correct",
+              "detail": ""
+            },
+            {
+              "field": "key_products",
+              "status": "correct",
+              "detail": "3/3 matched"
+            }
+          ],
+          "score": 100.0
+        }
+      }
+    },
+    "qwen/qwen3.6-27b": {
+      "parametric": {
+        "answer": "**Retool** is a leading internal software development platform that enables companies to build custom internal tools, dashboards, and workflows quickly. It is designed primarily for developers and technical teams who need to create applications that interact with databases, APIs, and other backend services without starting from scratch.\n\n### What They Do\nRetool provides a low-code/no-code platform that allows developers to build internal tools (such as admin panels, customer support dashboards, data migration scripts, and operational workflows) in a fraction of the time it would take to build them using traditional full-stack development. Instead of writing HTML, CSS, and JavaScript from the ground up, developers use Retool\u2019s drag-and-drop UI components and pre-built integrations to connect to their existing data sources (like PostgreSQL, MySQL, MongoDB, REST APIs, GraphQL, etc.).\n\n### Founding and Headquarters\n- **Founded:** 2017\n- **Founders:** Dickson Katsande, Nikhil Thakkar, and Kurtis Van Cleave\n- **Headquarters:** San Francisco, California, USA\n\n### Main Products and Features\nRetool\u2019s platform is modular and consists of several integrated products:\n\n1. **Retool Apps (Core Product):**\n   - A visual builder for creating internal web applications.\n   - Drag-and-drop UI components (tables, forms, charts, buttons, etc.).\n   - Pre-built connectors to 100+ data sources (databases, APIs, SaaS tools like Salesforce, Slack, Jira, etc.).\n   - Support for JavaScript, SQL, and Python for custom logic.\n   - Role-based access control (RBAC) and audit logs.\n\n2. **Retool Workflows:**\n   - A visual workflow automation tool for building backend processes and integrations.\n   - Allows teams to automate tasks like data syncing, notifications, and multi-step API calls without writing extensive code.\n   - Includes error handling, retries, and scheduling.\n\n3. **Retool Tables:**\n   - A no-code interface for viewing, editing, and managing data in databases.\n   - Useful for non-technical users who need to interact with data without writing SQL.\n\n4. **Retool Connectors:**\n   - Pre-built integrations for popular services (e.g., AWS, Google Cloud, Stripe, GitHub) to simplify API interactions.\n\n5. **Retool AI:**\n   - AI-powered features that help generate UI components, write queries, and create workflows using natural language prompts.\n\n### Pricing Model\nRetool uses a **freemium** and **tiered subscription** pricing model, primarily based on the number of users and features required. Key tiers include:\n\n1. **Free Tier:**\n   - Limited to 5 users.\n   - Access to core Retool Apps and basic features.\n   - Community support.\n   - Suitable for small teams or evaluation.\n\n2. **Pro Tier:**\n   - Per-user monthly pricing (typically starts around $25\u2013$30 per user/month, billed annually).\n   - Includes advanced features like SSO (Single Sign-On), audit logs, and priority support.\n   - Suitable for growing teams.\n\n3. **Enterprise Tier:**\n   - Custom pricing based on organization size and needs.\n   - Includes advanced security, compliance features (SOC 2, HIPAA, GDPR), dedicated support, custom SLAs, and on-premise or private cloud deployment options.\n   - Tailored for large organizations with strict security and governance requirements.\n\n*Note: Pricing details may vary and are subject to change. For exact current pricing, it\u2019s best to check Retool\u2019s official website or contact their sales team.*\n\n### Why Companies Use Retool\n- **Speed:** Build tools in hours instead of weeks.\n- **Developer Efficiency:** Frees up engineering teams from building and maintaining internal tools.\n- **Flexibility:** Combines low-code ease with full-code power (JavaScript/SQL).\n- **Security:** Enterprise-grade security and access controls.\n- **Integration:** Connects to almost any data source or API.\n\nRetool has become a popular choice among tech companies, startups, and enterprises looking to streamline internal operations and empower both technical and non-technical teams.",
+        "eval": {
+          "fields": [
+            {
+              "field": "founded_year",
+              "status": "correct",
+              "detail": ""
+            },
+            {
+              "field": "hq",
+              "status": "correct",
+              "detail": ""
+            },
+            {
+              "field": "category",
+              "status": "correct",
+              "detail": ""
+            },
+            {
+              "field": "pricing_model",
+              "status": "correct",
+              "detail": ""
+            },
+            {
+              "field": "key_products",
+              "status": "correct",
+              "detail": "3/3 matched"
+            }
+          ],
+          "score": 100.0
+        }
+      },
+      "ambient_web": {
+        "answer": "Based on the provided context, here is the information regarding Retool:\n\n**What they do and Main Products/Features**\nRetool is an internal tools and business software platform. They help teams build and scale internal tools and business software platform products. Specifically, they provide a tool development platform that allows users to build custom business tools without needing programming language knowledge. Their infrastructure supports the creation of unlimited web apps and native mobile apps.\n\n**Founding and Headquarters**\nRetool was founded in 2017 and is headquartered in San Francisco, CA.\n\n**Pricing**\nRetool offers flexible pricing that scales with the business. Their pricing structure includes:\n*   **Free Plan:** $0/month for up to 5 end users.\n*   **User Definitions:** Pricing distinguishes between \"Builders\" (users who built or edited an app or workflow during the billing cycle) and \"Internal users\" (enabled users who did not build or edit an app or workflow during the billing cycle). Internal users can be restricted from making edits via permission controls.",
+        "eval": {
+          "fields": [
+            {
+              "field": "founded_year",
+              "status": "correct",
+              "detail": ""
+            },
+            {
+              "field": "hq",
+              "status": "correct",
+              "detail": ""
+            },
+            {
+              "field": "category",
+              "status": "correct",
+              "detail": ""
+            },
+            {
+              "field": "pricing_model",
+              "status": "correct",
+              "detail": ""
+            },
+            {
+              "field": "key_products",
+              "status": "correct",
+              "detail": "3/3 matched"
+            }
+          ],
+          "score": 100.0
+        }
+      },
+      "corrected": {
+        "answer": "Based on the provided context, here is the information about Retool:\n\n*   **What they do:** Retool is a low-code platform for building internal business tools.\n*   **Founded:** 2017\n*   **Headquarters:** San Francisco, California\n*   **Pricing:** They use a per-user subscription model (for Standard Users and End Users) and offer a free tier for up to 5 users.\n*   **Main products/features:** Their key products include a drag-and-drop app builder, Retool Workflows, and Retool AI.",
+        "eval": {
+          "fields": [
+            {
+              "field": "founded_year",
+              "status": "correct",
+              "detail": ""
+            },
+            {
+              "field": "hq",
+              "status": "correct",
+              "detail": ""
+            },
+            {
+              "field": "category",
+              "status": "correct",
+              "detail": ""
+            },
+            {
+              "field": "pricing_model",
+              "status": "correct",
+              "detail": ""
+            },
+            {
+              "field": "key_products",
+              "status": "correct",
+              "detail": "3/3 matched"
+            }
+          ],
+          "score": 100.0
+        }
+      }
+    }
+  },
+  "MiniQuest": {
+    "openai/gpt-oss-120b": {
+      "parametric": {
+        "answer": "**MiniQuest \u2013 Company Overview**\n\n| Item | Details |\n|------|---------|\n| **What they do** | MiniQuest builds **interactive, scenario\u2011based learning platforms** for corporate training, higher\u2011education, and professional development. Their flagship product lets organizations create \u201cchoose\u2011your\u2011own\u2011adventure\u201d simulations that blend video, branching logic, assessments, and analytics to teach soft\u2011skills (communication, leadership, compliance, sales, etc.) and technical processes. |\n| **Founded** | **2015** (by former instructional designers and a software\u2011engineering team that wanted a more engaging alternative to slide\u2011based e\u2011learning). |\n| **Headquarters** | **San Francisco, California, USA** (main office). The company also maintains a small R&D hub in **Toronto, Canada**, and a sales/implementation office in **London, United Kingdom**. |\n| **Main Products / Features** | 1. **MiniQuest Builder** \u2013 a drag\u2011and\u2011drop authoring tool (no\u2011code) for creating branching scenarios, video\u2011driven dialogues, and interactive quizzes.<br>2. **Scenario Library** \u2013 a marketplace of pre\u2011built, industry\u2011specific quests (e.g., \u201cHandling a Difficult Customer,\u201d \u201cCybersecurity Incident Response\u201d).<br>3. **Learner Dashboard** \u2013 real\u2011time progress tracking, competency scores, and personalized feedback.<br>4. **Analytics Suite** \u2013 cohort reporting, heat\u2011maps of decision paths, and ROI metrics that integrate with LMSs via xAPI/SCORM.<br>5. **Mobile & Offline Mode** \u2013 native iOS/Android apps that sync data when connectivity returns.<br>6. **Integrations** \u2013 connectors for popular LMSs (Cornerstone, Moodle, SAP SuccessFactors), HRIS systems, and CRM platforms (Salesforce, HubSpot). |\n| **Pricing Model** | MiniQuest uses a **tiered SaaS subscription** model, billed annually (with a discount for multi\u2011year contracts). The pricing is based on **active learner seats** and the level of feature access. Approximate public figures (subject to negotiation) are: <br>\u2022 **Starter** \u2013 $12\u202f/ learner / month (up to 250 learners, basic authoring, limited analytics). <br>\u2022 **Professional** \u2013 $20\u202f/ learner / month (up to 1,000 learners, full authoring, advanced analytics, API access). <br>\u2022 **Enterprise** \u2013 custom pricing (unlimited learners, dedicated account manager, white\u2011labeling, SSO/SAML, priority support, custom integrations). <br>All plans include a **30\u2011day free trial** and optional **pay\u2011as\u2011you\u2011go \u201cQuest Credits\u201d** for on\u2011demand access to premium scenario templates. |\n| **Typical Customers** | \u2022 Fortune\u202f500 corporations (sales enablement, compliance training).<br>\u2022 Mid\u2011size tech firms (product onboarding, customer\u2011support simulations).<br>\u2022 Universities & business schools (interactive case studies).<br>\u2022 Professional associations (continuing\u2011education credits). |\n| **Recent Highlights (2024\u20112025)** | - Launched **AI\u2011Assisted Quest Builder** that suggests branching paths and auto\u2011generates dialogue scripts from plain\u2011text outlines.<br>- Added **VR\u2011compatible scenarios** for immersive safety\u2011training pilots with a major manufacturing client.<br>- Reached **$45\u202fM ARR** and secured a $15\u202fM Series\u202fC round led by Insight Partners. |\n\n**Bottom line:** MiniQuest is a cloud\u2011based platform that lets organizations replace static e\u2011learning modules with interactive, story\u2011driven simulations. Founded in 2015 and headquartered in San Francisco, it monetizes through a per\u2011learner subscription model with tiered features, and its core offering revolves around the MiniQuest Builder, a rich library of ready\u2011made scenarios, and robust analytics/integration capabilities.",
+        "eval": {
+          "fields": [
+            {
+              "field": "founded_year",
+              "status": "incorrect",
+              "detail": "model said 2015, actual 2026"
+            },
+            {
+              "field": "hq",
+              "status": "incorrect",
+              "detail": "model said 'london', actual 'boston'"
+            },
+            {
+              "field": "category",
+              "status": "partial",
+              "detail": ""
+            },
+            {
+              "field": "pricing_model",
+              "status": "partial",
+              "detail": ""
+            },
+            {
+              "field": "key_products",
+              "status": "correct",
+              "detail": "4/5 matched"
+            }
+          ],
+          "score": 50.0
+        }
+      },
+      "ambient_web": {
+        "answer": "I\u2019m sorry, but the provided context does not contain any information about MiniQuest, including its activities, founding date, headquarters, pricing model, or product details.",
+        "eval": {
+          "fields": [
+            {
+              "field": "founded_year",
+              "status": "missing",
+              "detail": ""
+            },
+            {
+              "field": "hq",
+              "status": "missing",
+              "detail": ""
+            },
+            {
+              "field": "category",
+              "status": "partial",
+              "detail": ""
+            },
+            {
+              "field": "pricing_model",
+              "status": "missing",
+              "detail": ""
+            },
+            {
+              "field": "key_products",
+              "status": "partial",
+              "detail": "2/5 matched"
+            }
+          ],
+          "score": 37.5
+        }
+      },
+      "corrected": {
+        "answer": "MiniQuest is an AI\u2011powered consumer app that creates day\u2011trip and adventure itineraries.  \n\n- **Founded:** 2026  \n- **Headquarters:** Boston, Massachusetts  \n\n**Pricing**  \n- The app is offered for free; there is no paid tier publicly listed.\n\n**Main products / features**  \n- Generates AI\u2011crafted day itineraries from a single user prompt.  \n- Uses a six\u2011agent pipeline that handles location selection, intent interpretation, venue scouting, live research, transit routing, and itinerary creation.  \n- Provides live venue research and real\u2011time transit routing (including MBTA integration for Boston).  \n- Includes a \u201cgroup mode\u201d for collaborative planning.  \n- Offers a community feed where users can share and discover itineraries.  \n\nMiniQuest is built and run by a single developer, has no external funding or marketing, and covers any U.S. city. It is not related to the MiniQuest Adventures board game or RuneScape miniquests.",
+        "eval": {
+          "fields": [
+            {
+              "field": "founded_year",
+              "status": "correct",
+              "detail": ""
+            },
+            {
+              "field": "hq",
+              "status": "correct",
+              "detail": ""
+            },
+            {
+              "field": "category",
+              "status": "correct",
+              "detail": ""
+            },
+            {
+              "field": "pricing_model",
+              "status": "correct",
+              "detail": ""
+            },
+            {
+              "field": "key_products",
+              "status": "correct",
+              "detail": "5/5 matched"
+            }
+          ],
+          "score": 100.0
+        }
+      }
+    },
+    "openai/gpt-oss-20b": {
+      "parametric": {
+        "answer": "**MiniQuest \u2013 Quick\u2011Start, Low\u2011Cost, High\u2011Impact Digital Experiences**\n\n| Topic | Details |\n|-------|---------|\n| **What they do** | MiniQuest builds \u201cmicro\u2011experiences\u201d \u2013 short, interactive, data\u2011driven digital journeys that can be embedded in websites, apps, emails, or social media. Think of them as a cross between a landing page, a quiz, and a mini\u2011game, all designed to capture leads, educate prospects, or drive engagement in under a minute. |\n| **Founded** | 2021 |\n| **Headquarters** | San Francisco, CA (U.S.) \u2013 with a satellite office in London, UK for European clients. |\n| **Pricing model** | \u2022 **Starter (Free)** \u2013 1 micro\u2011experience, 1,000 monthly interactions, basic analytics. <br>\u2022 **Growth ($49\u202f/\u202fmonth)** \u2013 up to 5 experiences, 10,000 interactions, advanced analytics, email integration. <br>\u2022 **Pro ($149\u202f/\u202fmonth)** \u2013 unlimited experiences, 100,000 interactions, custom branding, API access, priority support. <br>\u2022 **Enterprise (custom quote)** \u2013 tailored limits, dedicated account manager, SSO, GDPR compliance, on\u2011prem or private\u2011cloud hosting. <br>All plans are billed monthly; annual billing offers a 10\u202f% discount. |\n| **Core products / features** | 1. **Micro\u2011Experience Builder** \u2013 drag\u2011and\u2011drop editor with pre\u2011built templates (quiz, poll, product showcase, onboarding wizard). <br>2. **Dynamic Data Layer** \u2013 pull in real\u2011time data from CRMs, CMSs, or APIs to personalize content on the fly. <br>3. **A/B Testing & Analytics** \u2013 built\u2011in split\u2011testing, heat\u2011maps, funnel analysis, and exportable reports. <br>4. **Embed & Share** \u2013 responsive embed code, shareable links, QR codes, and native mobile widgets. <br>5. **Integrations** \u2013 native connectors for HubSpot, Salesforce, Marketo, Shopify, Shopify Plus, and Zapier. <br>6. **Security & Compliance** \u2013 GDPR\u2011ready, SOC\u202f2\u2011compliant hosting, optional on\u2011prem deployment. <br>7. **Marketplace** \u2013 a curated library of third\u2011party templates and assets (images, icons, micro\u2011copy). |\n\n### How MiniQuest Stands Out\n\n| Differentiator | Why it matters |\n|----------------|----------------|\n| **Speed** | Experiences can be launched in 5\u201310\u202fminutes, no dev team required. |\n| **Low Cost** | Starter plan is free; even the Growth tier is under $50/month, making it accessible for SMBs and marketing teams. |\n| **Data\u2011First** | Real\u2011time personalization drives higher conversion rates (average lift 15\u201325\u202f% reported by clients). |\n| **Scalability** | From a single landing page to a full\u2011blown microsite, all within the same platform. |\n| **Developer Friendly** | API and SDKs let you embed experiences directly into custom codebases or headless CMSs. |\n\n### Typical Use Cases\n\n| Use Case | MiniQuest Solution |\n|----------|--------------------|\n| **Lead Generation** | Interactive quiz that scores prospects and auto\u2011adds them to a CRM. |\n| **Product Launch** | Mini\u2011game that showcases new features and collects feedback. |\n| **Onboarding** | Step\u2011by\u2011step wizard that guides new users through key app functions. |\n| **Event Promotion** | Countdown timer + RSVP poll embedded in email campaigns. |\n| **Customer Feedback** | 3\u2011question survey with instant sentiment analysis. |\n\n### Notable Customers\n\n- **Shopify** \u2013 used MiniQuest to create a \u201cProduct Discovery\u201d micro\u2011experience for its merchants.  \n- **HubSpot** \u2013 embedded a lead\u2011scoring quiz on its partner portal.  \n- **Nike** \u2013 ran a limited\u2011time \u201cSneaker Customizer\u201d micro\u2011experience on its website.  \n\n---\n\n**Bottom line:** MiniQuest is a fast\u2011to\u2011deploy, low\u2011cost platform that lets marketers and product teams create highly engaging, data\u2011driven micro\u2011experiences without writing code. Its tiered pricing makes it accessible to startups and enterprises alike, while its rich feature set keeps it competitive in the growing micro\u2011experience market.",
+        "eval": {
+          "fields": [
+            {
+              "field": "founded_year",
+              "status": "incorrect",
+              "detail": "model said 2021, actual 2026"
+            },
+            {
+              "field": "hq",
+              "status": "incorrect",
+              "detail": "model said 'london', actual 'boston'"
+            },
+            {
+              "field": "category",
+              "status": "partial",
+              "detail": ""
+            },
+            {
+              "field": "pricing_model",
+              "status": "correct",
+              "detail": ""
+            },
+            {
+              "field": "key_products",
+              "status": "correct",
+              "detail": "4/5 matched"
+            }
+          ],
+          "score": 60.0
+        }
+      },
+      "ambient_web": {
+        "answer": "I\u2019m sorry, but I don\u2019t have any information on MiniQuest.",
+        "eval": {
+          "fields": [
+            {
+              "field": "founded_year",
+              "status": "missing",
+              "detail": ""
+            },
+            {
+              "field": "hq",
+              "status": "missing",
+              "detail": ""
+            },
+            {
+              "field": "category",
+              "status": "missing",
+              "detail": ""
+            },
+            {
+              "field": "pricing_model",
+              "status": "missing",
+              "detail": ""
+            },
+            {
+              "field": "key_products",
+              "status": "partial",
+              "detail": "1/5 matched"
+            }
+          ],
+          "score": 32.5
+        }
+      },
+      "corrected": {
+        "answer": "MiniQuest is an AI\u2011powered day\u2011trip and adventure itinerary planning app for consumers. It was founded in 2026 and is headquartered in Boston, Massachusetts. The app is offered for free; no paid tier is publicly listed. Its main products and features include:\n\n- AI\u2011generated day itineraries from a single prompt  \n- A 6\u2011agent pipeline that handles location, intent, venue scouting, live research, routing, and creation  \n- Live venue research and transit routing (including MBTA integration for Boston)  \n- Group mode for planning with others  \n- A community feed for sharing and discovering itineraries  \n\nMiniQuest is built and run solo by one developer, with no external funding or marketing. It covers any U.S. city.",
+        "eval": {
+          "fields": [
+            {
+              "field": "founded_year",
+              "status": "correct",
+              "detail": ""
+            },
+            {
+              "field": "hq",
+              "status": "correct",
+              "detail": ""
+            },
+            {
+              "field": "category",
+              "status": "correct",
+              "detail": ""
+            },
+            {
+              "field": "pricing_model",
+              "status": "correct",
+              "detail": ""
+            },
+            {
+              "field": "key_products",
+              "status": "correct",
+              "detail": "5/5 matched"
+            }
+          ],
+          "score": 100.0
+        }
+      }
+    },
+    "qwen/qwen3.6-27b": {
+      "parametric": {
+        "answer": "Based on current business databases and public records, **there is no widely recognized or major company named \"MiniQuest\"** that fits the description of a standard software or product vendor with publicly available pricing, headquarters, and founding dates.\n\nIt is possible that you are referring to one of the following similarly named entities, or a very small/private startup:\n\n### 1. **MiniQuest (Educational Game/Platform)**\n   - **What they do**: MiniQuest is sometimes associated with educational gamification platforms or mobile games designed for children, often focusing on learning through quests or adventures.\n   - **Status**: This is likely a small indie game developer or a niche educational tool, not a large enterprise software company.\n   - **Pricing**: Typically free-to-play with in-app purchases, or a one-time purchase fee for mobile apps.\n   - **Headquarters**: Not publicly disclosed for most indie developers.\n   - **Founding Date**: Not widely documented.\n\n### 2. **Confusion with \"Mini\" or \"Quest\" Companies**\n   You might be thinking of a company with a similar name, such as:\n   - **Quest Diagnostics**: A large clinical laboratory company (founded 1967, headquartered in Secaucus, NJ).\n   - **Mini Motorworks**: A toy company (founded 2017, headquartered in San Francisco, CA).\n   - **Quest Software**: A software company acquired by Micro Focus (founded 1983, headquartered in New York, NY).\n   - **MiniMax**: An AI company (founded 2021, headquartered in Beijing, China).\n\n### 3. **Private or Very Small Startup**\n   If \"MiniQuest\" is a very new, private, or micro-startup:\n   - **Pricing, Headquarters, and Founding Date** would not be publicly available.\n   - **Products/Features** would need to be sourced directly from their website or press releases.\n\n### Recommendation\nTo provide an accurate answer, please clarify:\n1. **Industry**: Is MiniQuest in tech, education, gaming, healthcare, or another sector?\n2. **Context**: Where did you hear about them? (e.g., a news article, a job posting, a product review)\n3. **Possible Misspelling**: Could it be **MinQuest**, **MiniQuest Games**, **Quest Mini**, or another variation?\n\nIf you can provide more context, I can give you a more precise and helpful response.",
+        "eval": {
+          "fields": [
+            {
+              "field": "founded_year",
+              "status": "incorrect",
+              "detail": "model said 1967, actual 2026"
+            },
+            {
+              "field": "hq",
+              "status": "incorrect",
+              "detail": "model said 'new york', actual 'boston'"
+            },
+            {
+              "field": "category",
+              "status": "partial",
+              "detail": ""
+            },
+            {
+              "field": "pricing_model",
+              "status": "correct",
+              "detail": ""
+            },
+            {
+              "field": "key_products",
+              "status": "partial",
+              "detail": "2/5 matched"
+            }
+          ],
+          "score": 45.0
+        }
+      },
+      "ambient_web": {
+        "answer": "I don't have that information. The provided context contains information about \"Quest USA\" and \"Quest Software,\" but it does not mention a company called \"MiniQuest.\"",
+        "eval": {
+          "fields": [
+            {
+              "field": "founded_year",
+              "status": "missing",
+              "detail": ""
+            },
+            {
+              "field": "hq",
+              "status": "missing",
+              "detail": ""
+            },
+            {
+              "field": "category",
+              "status": "partial",
+              "detail": ""
+            },
+            {
+              "field": "pricing_model",
+              "status": "missing",
+              "detail": ""
+            },
+            {
+              "field": "key_products",
+              "status": "partial",
+              "detail": "2/5 matched"
+            }
+          ],
+          "score": 37.5
+        }
+      },
+      "corrected": {
+        "answer": "Based on the provided context, here is the information about MiniQuest:\n\n*   **What they do:** MiniQuest is an AI-powered app for planning day-trip and adventure itineraries. It is a consumer product, not a B2B SaaS solution.\n*   **Founded:** 2026\n*   **Headquarters:** Boston, Massachusetts\n*   **Pricing:** The app is free, with no paid tier publicly listed.\n*   **Main Products/Features:**\n    *   AI-generated day itineraries created from a single prompt.\n    *   A 6-agent pipeline that handles location, intent, venue scouting, live research, routing, and creation.\n    *   Live venue research and transit routing (including live MBTA transit integration for Boston).\n    *   Group mode.\n    *   A community feed.\n\nAdditionally, the app is built and run solo by one developer without external funding or marketing, covers any US city, and is not affiliated with the MiniQuest Adventures board game or RuneScape miniquests.",
+        "eval": {
+          "fields": [
+            {
+              "field": "founded_year",
+              "status": "correct",
+              "detail": ""
+            },
+            {
+              "field": "hq",
+              "status": "correct",
+              "detail": ""
+            },
+            {
+              "field": "category",
+              "status": "correct",
+              "detail": ""
+            },
+            {
+              "field": "pricing_model",
+              "status": "correct",
+              "detail": ""
+            },
+            {
+              "field": "key_products",
+              "status": "correct",
+              "detail": "5/5 matched"
+            }
+          ],
+          "score": 100.0
+        }
+      }
+    }
+  },
+  "Banking Intelligence API": {
+    "openai/gpt-oss-120b": {
+      "parametric": {
+        "answer": "**Banking Intelligence API \u2013 Overview**\n\n| Item | Details |\n|------|---------|\n| **Company name** | **Banking Intelligence API** (often shortened to **BIA**) |\n| **Founded** | **2017** |\n| **Headquarters** | **London, United Kingdom** (registered office: 1st Floor, 10 St. James\u2019s Square, London\u202fSW1Y\u202f4AH) |\n| **Core mission** | Provide developers, fintechs, and financial institutions with a single, unified API that delivers real\u2011time, high\u2011quality data and analytics on banks, credit unions, payment networks, and related financial entities worldwide. |\n| **Primary market** | Fintechs building account\u2011aggregation, KYC/AML, credit\u2011risk, fraud\u2011prevention, and financial\u2011planning solutions; banks and neobanks that need external data enrichment; SaaS platforms that require up\u2011to\u2011date banking\u2011institution metadata. |\n\n---\n\n## 1. What They Do (Product & Service Scope)\n\nBanking Intelligence API aggregates, normalizes, and enriches data from **over 30,000 financial institutions** across **more than 200 countries**. The service is delivered via a **RESTful JSON API** (with optional GraphQL endpoint) that can be called from any programming language.\n\nKey data categories:\n\n| Category | Example Data Points |\n|----------|----------------------|\n| **Institution Metadata** | Legal name, SWIFT/BIC, routing numbers, IBAN formats, licensing information, regulatory identifiers (e.g., FCA, OCC, MAS), operating status, contact details. |\n| **Product & Service Catalog** | Types of accounts offered (checking, savings, business, crypto\u2011linked), fees, interest rates, limits, supported currencies, digital\u2011banking features (API access, open\u2011banking support). |\n| **Compliance & Risk** | AML/KYC risk scores, sanctions list matches, PEP (Politically Exposed Person) flags, fraud\u2011risk indicators, historical breach data. |\n| **Geographic & Market Coverage** | Country of incorporation, market share estimates, branch network size, ATMs, digital\u2011only vs. brick\u2011and\u2011mortar. |\n| **Operational Status** | Real\u2011time availability, outage history, API uptime, maintenance windows. |\n| **Historical & Trend Data** | Year\u2011over\u2011year growth, asset size trends, customer\u2011base evolution, product\u2011launch timelines. |\n\nThe API is designed to be **plug\u2011and\u2011play**: a single request can return a full profile of a bank, or you can query specific endpoints (e.g., \u201c/v1/institutions/{bic}/risk\u201d). The data is refreshed **multiple times per day** from primary sources (central banks, regulator registries, proprietary web\u2011scraping pipelines, and partner data feeds).\n\n---\n\n## 2. Main Products / Features\n\n| Product / Feature | Description | Typical Use\u2011Case |\n|-------------------|-------------|-----------------|\n| **Institution Lookup** | Search by name, SWIFT/BIC, routing number, IBAN prefix, or country. Returns a unique institution ID for downstream calls. | On\u2011boarding flow that validates a user\u2019s bank details instantly. |\n| **Full Institution Profile** | `/v1/institutions/{id}` \u2013 returns the complete metadata set (metadata, products, compliance scores, status). | Credit\u2011risk engine that enriches a loan applicant\u2019s profile with bank health data. |\n| **Compliance & Risk Scoring** | Real\u2011time AML/ sanctions match, PEP detection, fraud\u2011risk rating (0\u2011100). | KYC/AML pipelines that need an automated risk flag before manual review. |\n| **Product Catalog API** | `/v1/institutions/{id}/products` \u2013 detailed list of account types, fees, interest rates, digital\u2011banking capabilities. | Personal\u2011finance apps that suggest the best\u2011fit accounts for a user. |\n| **Open\u2011Banking Compatibility Map** | Indicates whether the institution supports PSD2, Open Banking UK, US Open Banking, or other standards, plus API endpoint URLs if public. | Fintechs building aggregation services that need to know which banks can be accessed via open\u2011banking. |\n| **Batch Enrichment** | Upload CSV/JSON of up to 100k identifiers; receive enriched data in bulk (asynchronous job). | Large\u2011scale data\u2011cleaning projects for legacy banking datasets. |\n| **Webhook Alerts** | Subscribe to events (status change, regulatory sanction, product launch, outage). | Real\u2011time monitoring dashboards for risk\u2011management teams. |\n| **Sandbox Environment** | Free, rate\u2011limited sandbox with mock data for development and testing. | Early\u2011stage prototyping before committing to a paid plan. |\n| **SDKs & Client Libraries** | Official libraries for **Python, Node.js, Java, Go, .NET** plus OpenAPI spec for custom generation. | Faster integration for development teams. |\n| **Analytics Dashboard** | Web UI that visualizes usage, query volume, and provides quick look\u2011ups without code. | Non\u2011technical stakeholders who need occasional data checks. |\n\n---\n\n## 3. Pricing Model (as of 2024\u20112025)\n\nBanking Intelligence API follows a **tiered, usage\u2011based SaaS pricing** with optional enterprise contracts. All plans include a **monthly minimum** and a **per\u2011call cost** beyond the included quota.\n\n| Plan | Monthly Fee | Included Calls (per month) | Over\u2011age Cost | Typical Customer |\n|------|-------------|----------------------------|---------------|------------------|\n| **Free Sandbox** | $0 | 5,000 calls (restricted to sandbox endpoints) | N/A |",
+        "eval": {
+          "fields": [
+            {
+              "field": "founded_year",
+              "status": "correct",
+              "detail": ""
+            },
+            {
+              "field": "hq",
+              "status": "incorrect",
+              "detail": "model said 'london', actual 'boston'"
+            },
+            {
+              "field": "category",
+              "status": "correct",
+              "detail": ""
+            },
+            {
+              "field": "pricing_model",
+              "status": "correct",
+              "detail": ""
+            },
+            {
+              "field": "key_products",
+              "status": "correct",
+              "detail": "3/3 matched"
+            }
+          ],
+          "score": 85.0
+        }
+      },
+      "ambient_web": {
+        "answer": "I don\u2019t have that information in the provided context.",
+        "eval": {
+          "fields": [
+            {
+              "field": "founded_year",
+              "status": "missing",
+              "detail": ""
+            },
+            {
+              "field": "hq",
+              "status": "missing",
+              "detail": ""
+            },
+            {
+              "field": "category",
+              "status": "missing",
+              "detail": ""
+            },
+            {
+              "field": "pricing_model",
+              "status": "missing",
+              "detail": ""
+            },
+            {
+              "field": "key_products",
+              "status": "missing",
+              "detail": ""
+            }
+          ],
+          "score": 25.0
+        }
+      },
+      "corrected": {
+        "answer": "**Banking Intelligence API \u2013 Overview**\n\n- **What they do:**  \n  Banking Intelligence API provides an AI\u2011driven banking\u2011intelligence platform for financial institutions. It offers a personalized financial chatbot API, transaction\u2011analytics and reporting capabilities, and a REST API that can be integrated in under two weeks.\n\n- **Founded:**  \n  2025  \n\n- **Headquarters:**  \n  Boston, Massachusetts  \n\n- **Pricing model:**  \n  Custom / direct quote only; there are no publicly listed pricing tiers.\n\n- **Main products / features:**  \n  1. **Banking Intelligence AI** \u2013 a personalized financial chatbot API.  \n  2. **Banking Intelligence Command** \u2013 transaction analytics and reporting tools.  \n  3. **REST API** \u2013 designed for rapid integration (typically under two weeks).  \n\nAdditional verified details: the service is built on a partnership with Cohere for its underlying language model, reports roughly 98\u202f% API uptime with an average response time of about 1500\u202fms, and is in beta testing with 50+ financial institutions as of 2026.",
+        "eval": {
+          "fields": [
+            {
+              "field": "founded_year",
+              "status": "correct",
+              "detail": ""
+            },
+            {
+              "field": "hq",
+              "status": "correct",
+              "detail": ""
+            },
+            {
+              "field": "category",
+              "status": "correct",
+              "detail": ""
+            },
+            {
+              "field": "pricing_model",
+              "status": "correct",
+              "detail": ""
+            },
+            {
+              "field": "key_products",
+              "status": "correct",
+              "detail": "3/3 matched"
+            }
+          ],
+          "score": 100.0
+        }
+      }
+    },
+    "openai/gpt-oss-20b": {
+      "parametric": {
+        "answer": "**Banking Intelligence API (BIA)**  \n*A fictional, illustrative example of a fintech company that offers a suite of banking\u2011centric APIs.*\n\n| Item | Details |\n|------|---------|\n| **What they do** | BIA builds a cloud\u2011native, data\u2011driven platform that lets banks, fintechs, and corporate treasuries ingest, enrich, and analyze banking data in real time. Their core offering is a set of RESTful APIs that expose transaction feeds, account balances, credit risk scores, regulatory compliance checks, and fraud\u2011detection signals. The platform also provides a low\u2011code \u201cworkflow builder\u201d that lets users stitch together data pipelines, trigger alerts, and integrate with existing ERP or payment systems. |\n| **Founded** | 2018 |\n| **Headquarters** | San Francisco, California, USA (with a secondary office in London, UK) |\n| **Pricing model** | \u2022 **Pay\u2011as\u2011you\u2011go** \u2013 $0.002 per API call for the core transaction and balance APIs. <br>\u2022 **Tiered subscription** \u2013 <br>\u2003\u2013 *Starter* (up to 50k calls/month) \u2013 $499/month <br>\u2003\u2013 *Professional* (up to 500k calls/month) \u2013 $2,499/month <br>\u2003\u2013 *Enterprise* (unlimited calls, dedicated support) \u2013 custom pricing (typically $10k\u2013$25k/month) <br>\u2022 **Add\u2011ons** \u2013 Real\u2011time fraud scoring ($0.01 per transaction), regulatory reporting packs ($0.005 per record), and data enrichment services (e.g., credit\u2011score lookup, KYC verification). <br>\u2022 **Free tier** \u2013 10k calls/month, limited to sandbox data, no SLA. |\n| **Main products / features** | 1. **Transaction API** \u2013 Pull real\u2011time and historical transaction streams, filter by merchant category, amount, or date range. <br>2. **Account API** \u2013 Retrieve balances, account status, and metadata (e.g., account type, currency). <br>3. **Risk & Fraud API** \u2013 On\u2011demand fraud scoring, velocity checks, and anomaly detection. <br>4. **Regulatory API** \u2013 Automated generation of AML/KYC reports, sanctions screening, and transaction monitoring dashboards. <br>5. **Enrichment API** \u2013 Attach external data (e.g., credit scores, business ratings, geolocation) to transaction or account records. <br>6. **Workflow Builder** \u2013 Drag\u2011and\u2011drop interface to create data pipelines, set up alerts, and trigger downstream actions (e.g., webhook, email, Slack). <br>7. **Analytics Dashboard** \u2013 Pre\u2011built visualizations for cash\u2011flow forecasting, liquidity analysis, and risk heatmaps. <br>8. **Developer Portal** \u2013 Comprehensive SDKs (Python, Java, Node.js), sandbox environment, and real\u2011time documentation. |\n\n---\n\n### Quick Takeaways\n\n| Question | Answer |\n|----------|--------|\n| **What do they do?** | Provide real\u2011time banking data APIs and analytics tools for banks, fintechs, and corporates. |\n| **When founded?** | 2018 |\n| **Headquarters?** | San Francisco, CA (US) & London, UK |\n| **Pricing?** | Pay\u2011as\u2011you\u2011go + tiered subscriptions; add\u2011ons for fraud, compliance, and enrichment. |\n| **Main products?** | Transaction, Account, Risk/Fraud, Regulatory, Enrichment APIs; Workflow Builder; Analytics Dashboard. |\n\n> **Note:** The above profile is a composite of typical fintech API offerings and is not tied to a real company named \u201cBanking Intelligence API.\u201d If you\u2019re looking for a specific vendor, let me know the exact name and I can dig into publicly available data.",
+        "eval": {
+          "fields": [
+            {
+              "field": "founded_year",
+              "status": "incorrect",
+              "detail": "model said 2018, actual 2025"
+            },
+            {
+              "field": "hq",
+              "status": "incorrect",
+              "detail": "model said 'london', actual 'boston'"
+            },
+            {
+              "field": "category",
+              "status": "correct",
+              "detail": ""
+            },
+            {
+              "field": "pricing_model",
+              "status": "correct",
+              "detail": ""
+            },
+            {
+              "field": "key_products",
+              "status": "correct",
+              "detail": "3/3 matched"
+            }
+          ],
+          "score": 70.0
+        }
+      },
+      "ambient_web": {
+        "answer": "I\u2019m sorry, but I don\u2019t have that information.",
+        "eval": {
+          "fields": [
+            {
+              "field": "founded_year",
+              "status": "missing",
+              "detail": ""
+            },
+            {
+              "field": "hq",
+              "status": "missing",
+              "detail": ""
+            },
+            {
+              "field": "category",
+              "status": "missing",
+              "detail": ""
+            },
+            {
+              "field": "pricing_model",
+              "status": "missing",
+              "detail": ""
+            },
+            {
+              "field": "key_products",
+              "status": "missing",
+              "detail": ""
+            }
+          ],
+          "score": 25.0
+        }
+      },
+      "corrected": {
+        "answer": "**Banking Intelligence API**\n\n- **What they do:**  \n  They provide an AI\u2011powered banking\u2011intelligence API that helps financial institutions (banks, neobanks, credit unions, insurers, and investment platforms) build personalized financial chatbots and perform transaction analytics and reporting.\n\n- **Founded:** 2025\n\n- **Headquarters:** Boston, Massachusetts\n\n- **Pricing model:** Custom/direct quote \u2013 they do not publish public pricing tiers.\n\n- **Main products / features:**  \n  1. **Banking Intelligence AI** \u2013 a personalized financial chatbot API.  \n  2. **Banking Intelligence Command** \u2013 transaction analytics and reporting.  \n  3. A REST API that can be integrated in under two weeks.  \n\nThese details are based on the verified information provided in the context.",
+        "eval": {
+          "fields": [
+            {
+              "field": "founded_year",
+              "status": "correct",
+              "detail": ""
+            },
+            {
+              "field": "hq",
+              "status": "correct",
+              "detail": ""
+            },
+            {
+              "field": "category",
+              "status": "correct",
+              "detail": ""
+            },
+            {
+              "field": "pricing_model",
+              "status": "correct",
+              "detail": ""
+            },
+            {
+              "field": "key_products",
+              "status": "correct",
+              "detail": "3/3 matched"
+            }
+          ],
+          "score": 100.0
+        }
+      }
+    },
+    "qwen/qwen3.6-27b": {
+      "parametric": {
+        "answer": "Based on current industry data, there is **no major, widely recognized fintech company or API provider specifically named \"Banking Intelligence API.\"**\n\nIt is highly likely that you are referring to one of the following well-known providers in the **Banking-as-a-Service (BaaS)**, **Open Banking**, or **Financial Data Aggregation** space, which offer APIs that provide \"banking intelligence\" (such as transaction categorization, cash flow analysis, or account aggregation). The most prominent companies in this space include:\n\n1. **Plaid**\n2. **Yodlee** (now part of Mastercard)\n3. **Tink**\n4. **Finicity** (now part of Finicity/Mastercard)\n5. **Salt Edge**\n6. **TrueLayer**\n\nBelow is a detailed overview of **Plaid**, as it is the most commonly referenced \"banking intelligence\" API provider in the fintech industry. If you meant a different company, please clarify.\n\n---\n\n### **Plaid: Overview**\n\n#### **What They Do**\nPlaid is a financial technology company that builds an infrastructure platform that enables applications to connect with users\u2019 bank accounts. It acts as a bridge between fintech apps (like Venmo, Robinhood, Chime, etc.) and traditional banks. Plaid\u2019s APIs allow developers to access financial data (such as account balances, transaction history, and identity verification) securely and programmatically.\n\n#### **Founded**\n- **Year Founded:** 2013\n- **Founders:** Zach Perret and William Hockey\n\n#### **Headquarters**\n- **Location:** San Francisco, California, USA\n\n#### **Pricing Model**\nPlaid uses a **usage-based pricing model**, which is common in the API economy. Key components include:\n- **Free Tier:** For startups and developers with low volume (e.g., up to 1,000 authentications per month).\n- **Pay-as-You-Go:** Pricing is based on the number of API calls, specifically:\n  - **Authentications:** The number of times a user connects their bank account.\n  - **Data Requests:** The number of times data (like transactions or balances) is fetched.\n- **Enterprise Plans:** Custom pricing for high-volume users, including dedicated support, SLAs, and advanced features.\n- **Additional Fees:** May apply for specific products like Identity Verification, Income Verification, or Payment Initiation.\n\n#### **Main Products & Features**\n1. **Auth API:** Allows users to securely connect their bank accounts to an app.\n2. **Transactions API:** Provides access to historical and real-time transaction data.\n3. **Balance API:** Retrieves real-time account balances.\n4. **Identity API:** Verifies user identity using bank data (e.g., name, address, email).\n5. **Income API:** Analyzes transaction history to verify income and employment status.\n6. **Investments API:** Accesses investment account data (stocks, bonds, etc.).\n7. **Payment Initiation API:** Enables users to send payments directly from their bank accounts (available in select regions like the UK and EU).\n8. **Webhooks:** Real-time notifications for account changes or new transactions.\n\n---\n\n### **Other Possible Companies You Might Mean**\n\nIf you were referring to a different provider, here are brief summaries:\n\n#### **Yodlee (Mastercard)**\n- **Founded:** 1999\n- **Headquarters:** Jersey City, New Jersey, USA\n- **What They Do:** One of the oldest and largest financial data aggregation platforms. Provides APIs for account aggregation, bill pay, and financial insights.\n- **Pricing:** Enterprise-focused, custom pricing based on volume and features.\n\n#### **Tink**\n- **Founded:** 2013\n- **Headquarters:** Stockholm, Sweden (with offices in London, New York, etc.)\n- **What They Do:** Open Banking API provider, strong in Europe. Offers account aggregation, payment initiation, and credit scoring.\n- **Pricing:** Usage-based, with free tiers for developers.\n\n#### **Salt Edge**\n- **Founded:** 2015\n- **Headquarters:** London, UK (with offices in New York, etc.)\n- **What They Do:** Global open banking API provider, connecting to banks in 100+ countries.\n- **Pricing:** Usage-based, with transparent pricing for API calls.\n\n---\n\n### **Recommendation**\nIf you are looking for a specific company named \"Banking Intelligence API,\" it may be:\n1. A **niche or startup** company not widely covered in public sources.\n2. A **product name** from a larger company (e.g., \"Banking Intelligence\" as a feature set from a provider like **Fiserv**, **FIS**, or **Jack Henry**).\n3. A **misremembered name** (e.g., **Banking Circle**, **Intelligent Banking**, etc.).\n\nPlease provide more context or clarify the name if you meant a different provider.",
+        "eval": {
+          "fields": [
+            {
+              "field": "founded_year",
+              "status": "incorrect",
+              "detail": "model said 2013, actual 2025"
+            },
+            {
+              "field": "hq",
+              "status": "incorrect",
+              "detail": "model said 'new york', actual 'boston'"
+            },
+            {
+              "field": "category",
+              "status": "correct",
+              "detail": ""
+            },
+            {
+              "field": "pricing_model",
+              "status": "correct",
+              "detail": ""
+            },
+            {
+              "field": "key_products",
+              "status": "correct",
+              "detail": "3/3 matched"
+            }
+          ],
+          "score": 70.0
+        }
+      },
+      "ambient_web": {
+        "answer": "I don't have that information. The provided context mentions Bank of America launching APIs for corporate clients and an increase in API usage, but it does not contain any information about a company or product called \"Banking Intelligence API,\" nor does it provide details on founding dates, headquarters, pricing, or specific features for such an entity.",
+        "eval": {
+          "fields": [
+            {
+              "field": "founded_year",
+              "status": "missing",
+              "detail": ""
+            },
+            {
+              "field": "hq",
+              "status": "missing",
+              "detail": ""
+            },
+            {
+              "field": "category",
+              "status": "correct",
+              "detail": ""
+            },
+            {
+              "field": "pricing_model",
+              "status": "partial",
+              "detail": ""
+            },
+            {
+              "field": "key_products",
+              "status": "correct",
+              "detail": "3/3 matched"
+            }
+          ],
+          "score": 67.5
+        }
+      },
+      "corrected": {
+        "answer": "Based on the provided context, here is the information about Banking Intelligence API:\n\n*   **What they do:** They are a B2B fintech company providing an AI banking-intelligence API for financial institutions.\n*   **Founded:** 2025\n*   **Headquarters:** Boston, Massachusetts\n*   **Pricing:** They use a custom/direct quote model and do not have public pricing tiers.\n*   **Main products/features:**\n    *   **Banking Intelligence AI:** A personalized financial chatbot API.\n    *   **Banking Intelligence Command:** Transaction analytics and reporting.\n    *   **REST API:** Features an integration time of under two weeks.",
+        "eval": {
+          "fields": [
+            {
+              "field": "founded_year",
+              "status": "correct",
+              "detail": ""
+            },
+            {
+              "field": "hq",
+              "status": "correct",
+              "detail": ""
+            },
+            {
+              "field": "category",
+              "status": "correct",
+              "detail": ""
+            },
+            {
+              "field": "pricing_model",
+              "status": "correct",
+              "detail": ""
+            },
+            {
+              "field": "key_products",
+              "status": "correct",
+              "detail": "3/3 matched"
+            }
+          ],
+          "score": 100.0
+        }
+      }
+    }
+  }
+}

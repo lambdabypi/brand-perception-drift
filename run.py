@@ -111,14 +111,15 @@ def run_experiment():
 
 
 def print_summary_table(all_results):
-    print(f"\n{'Brand':<10}{'Model':<24}{'Parametric':>12}{'Ambient Web':>14}{'Corrected':>12}")
-    print("-" * 72)
+    brand_width = max(len(b) for b in all_results) + 2
+    print(f"\n{'Brand':<{brand_width}}{'Model':<24}{'Parametric':>12}{'Ambient Web':>14}{'Corrected':>12}")
+    print("-" * (brand_width + 62))
     for brand_name, brand_results in all_results.items():
         for model, conditions in brand_results.items():
             p = conditions["parametric"]["eval"]["score"]
             w = conditions["ambient_web"]["eval"]["score"]
             c = conditions["corrected"]["eval"]["score"]
-            print(f"{brand_name:<10}{model:<24}{p:>12.1f}{w:>14.1f}{c:>12.1f}")
+            print(f"{brand_name:<{brand_width}}{model:<24}{p:>12.1f}{w:>14.1f}{c:>12.1f}")
 
 
 if __name__ == "__main__":

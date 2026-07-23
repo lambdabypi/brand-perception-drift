@@ -11,12 +11,12 @@ version would use structured-output extraction (ask the model to return
 JSON matching a schema) or an embedding-based semantic matcher.
 
 One deliberate design choice worth understanding, not just using: the
-hallucination check below is negation-aware on purpose. An earlier version
-of a similar checker I (Claude) built flagged a sentence like "not
-affiliated with LinearB" as a hallucination about an affiliation with
-LinearB, because it matched the keyword without checking whether the
-sentence was asserting or denying the relationship. That's a real failure
-mode worth knowing about before you rely on keyword matching for anything.
+hallucination check below is negation-aware on purpose. A naive version of
+this same check would flag a sentence like "not affiliated with LinearB" as
+a hallucination about an affiliation with LinearB, because it matches the
+keyword without checking whether the sentence is asserting or denying the
+relationship. That's a real failure mode worth knowing about before you
+rely on keyword matching for anything.
 """
 
 import re

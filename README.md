@@ -1,8 +1,17 @@
 # Brand Perception Drift Detector (Groq + Tavily edition)
 
 A small, real (not mocked) experiment testing how live LLMs describe real
-brands under three conditions, and whether giving a model the correct facts
-as context actually changes what it says.
+brands under three conditions: no context, live web search, and a verified
+profile, and whether that third one actually changes what a model says.
+
+**The headline finding:** when a model doesn't recognize a brand, it
+usually doesn't say so. Asked about MiniQuest (a live but unmarketed solo
+project) or Banking Intelligence API (an early-stage fintech startup), two
+of the three models tested didn't hedge, they invented an entire fictional
+company: a wrong founding year, a wrong headquarters, even a fabricated
+$15M funding round. Handing the same model a short, verified profile fixed
+it completely, every time. The actual quotes are in [What to actually look
+at](#what-to-actually-look-at) below.
 
 Five brands, split into two deliberately different tiers:
 
@@ -10,11 +19,12 @@ Five brands, split into two deliberately different tiers:
   companies. Frontier models already know these cold from training, so
   `parametric` scores tend to sit near the ceiling and there's little room
   for corrected context to improve anything.
-- **MiniQuest, Banking Intelligence API** -- a solo indie project with no
-  marketing/funding and a 2025-founded fintech startup with almost no public
-  footprint. Models have nothing to recall from training here, so this is
-  where the "does a verified profile actually change what the model says"
-  question gets a real answer instead of a ceiling effect.
+- **MiniQuest** (a solo indie project with no marketing or funding) **and
+  Banking Intelligence API** (a 2025-founded fintech startup with almost no
+  public footprint) -- models have nothing to recall from training on
+  either one, so this is where the "does a verified profile actually change
+  what the model says" question gets a real answer instead of a ceiling
+  effect.
 
 Testing only the first group would make correction look useless (there's
 nothing to correct); testing only the second would make it look like magic
@@ -61,10 +71,11 @@ condition (worth reading, not just the scores).
   ask the same question three ways (no context / web search context /
   corrected profile context), score every answer, print a comparison table.
 
-## What to actually look at once it runs
+## What to actually look at
 
-Don't just read the score table -- open `results.json` and read a few of
-the raw model answers, especially:
+Don't just read the score table -- `results.json` is already checked into
+this repo with the full raw model answers from a real run. Open it and read
+a few of them, especially:
 
 1. **Does "corrected" beat "parametric" on MiniQuest and Banking Intelligence
    API, and not on Linear/Vanta/Retool?** That split is the actual thesis --
@@ -129,8 +140,8 @@ wasn't enough room for that on top of an actual answer.
 
 Fixed by raising `max_tokens` to 1200 and setting `reasoning_effort` per
 model (`low` for gpt-oss, `none` for qwen3 -- see `providers.py` for the
-per-model logic and the Groq docs reference). Re-run after pulling this
-fix; expect real, comparable, complete answers this time.
+per-model logic and the Groq docs reference). Everything in `results.json`
+is from after this fix -- real, comparable, complete answers.
 
 ## Known limitations, worth being able to say out loud
 

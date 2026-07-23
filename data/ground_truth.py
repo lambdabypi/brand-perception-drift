@@ -1,8 +1,12 @@
 """
 ground_truth.py
 
-Verified facts for 3 real B2B SaaS brands, pulled from public sources
-(Wikipedia, Crunchbase, CB Insights, Sacra, Vendr) on the day this was built.
+Verified facts for 5 real brands, split into two tiers on purpose (see the
+README for why): Linear, Vanta, and Retool are well-funded, heavily
+documented B2B SaaS companies, sourced from public records (Wikipedia,
+Crunchbase, CB Insights, Sacra, Vendr) on the day this was built. MiniQuest
+and Banking Intelligence API have no meaningful public footprint, so those
+facts are sourced directly from the people who run each product instead.
 Cite your own sources if you update these later -- the whole point of this
 exercise is that YOU can defend every fact in here if asked.
 """
